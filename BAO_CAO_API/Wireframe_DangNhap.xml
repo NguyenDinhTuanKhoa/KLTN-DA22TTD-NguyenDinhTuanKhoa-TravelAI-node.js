@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net">
+<diagram name="Dang nhap" id="wf2">
+<mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="title" value="WIREFRAME: DANG NHAP" style="text;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="280" y="10" width="240" height="30" as="geometry"/></mxCell>
+
+<!-- Browser frame -->
+<mxCell id="frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="100" y="50" width="600" height="600" as="geometry"/></mxCell>
+
+<!-- Navbar -->
+<mxCell id="nav" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="100" y="50" width="600" height="50" as="geometry"/></mxCell>
+<mxCell id="logo" value="LOGO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="110" y="60" width="60" height="30" as="geometry"/></mxCell>
+
+<!-- Login Form -->
+<mxCell id="formbox" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="250" y="150" width="300" height="350" as="geometry"/></mxCell>
+<mxCell id="formtitle" value="DANG NHAP" style="text;html=1;align=center;fontSize=16;fontStyle=1" vertex="1" parent="1"><mxGeometry x="330" y="170" width="140" height="30" as="geometry"/></mxCell>
+
+<mxCell id="emaillbl" value="Email" style="text;html=1;align=left;fontSize=10" vertex="1" parent="1"><mxGeometry x="280" y="220" width="50" height="20" as="geometry"/></mxCell>
+<mxCell id="emailinput" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="280" y="240" width="240" height="35" as="geometry"/></mxCell>
+
+<mxCell id="passlbl" value="Mat khau" style="text;html=1;align=left;fontSize=10" vertex="1" parent="1"><mxGeometry x="280" y="290" width="60" height="20" as="geometry"/></mxCell>
+<mxCell id="passinput" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="280" y="310" width="240" height="35" as="geometry"/></mxCell>
+
+<mxCell id="loginbtn" value="DANG NHAP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#404040;strokeColor=#000000;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1"><mxGeometry x="280" y="380" width="240" height="40" as="geometry"/></mxCell>
+
+<mxCell id="register" value="Chua co tai khoan? Dang ky" style="text;html=1;align=center;fontSize=10;fontColor=#0066cc" vertex="1" parent="1"><mxGeometry x="310" y="440" width="180" height="20" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

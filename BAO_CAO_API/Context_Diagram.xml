@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+<diagram name="Context Diagram" id="ctx1">
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+
+<!-- TITLE -->
+<mxCell id="title" value="SO DO MUC 0 (CONTEXT DIAGRAM) - TRAVELAI" style="text;html=1;align=center;fontSize=16;fontStyle=1" vertex="1" parent="1"><mxGeometry x="350" y="20" width="400" height="30" as="geometry"/></mxCell>
+
+<!-- MAIN PROCESS (Center) -->
+<mxCell id="p0" value="0&#xa;&#xa;HE THONG&#xa;TRAVELAI" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1" vertex="1" parent="1"><mxGeometry x="450" y="300" width="180" height="120" as="geometry"/></mxCell>
+
+<!-- EXTERNAL ENTITIES -->
+<!-- Khach (Guest) -->
+<mxCell id="e1" value="KHACH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="150" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- User -->
+<mxCell id="e2" value="USER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="340" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- Admin -->
+<mxCell id="e3" value="ADMIN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="530" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- Cerebras AI API -->
+<mxCell id="e4" value="CEREBRAS&#xa;AI API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1"><mxGeometry x="900" y="150" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- OpenWeather API -->
+<mxCell id="e5" value="OPENWEATHER&#xa;API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1"><mxGeometry x="900" y="280" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- MongoDB Database -->
+<mxCell id="e6" value="MONGODB&#xa;DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="1"><mxGeometry x="900" y="410" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- OpenStreetMap -->
+<mxCell id="e7" value="OPENSTREET&#xa;MAP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1"><mxGeometry x="900" y="540" width="100" height="50" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - KHACH -->
+<mxCell id="f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e1" target="p0"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f1t" value="Thong tin dang ky/dang nhap&#xa;Yeu cau xem diem den&#xa;Cau hoi chat AI" style="text;html=1;align=left;fontSize=9" vertex="1" parent="1"><mxGeometry x="200" y="140" width="150" height="50" as="geometry"/></mxCell>
+
+<mxCell id="f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="400" y="360"/><mxPoint x="400" y="210"/></Array></mxGeometry></mxCell>
+<mxCell id="f2t" value="Danh sach diem den&#xa;Thong tin chi tiet&#xa;Cau tra loi AI" style="text;html=1;align=left;fontSize=9" vertex="1" parent="1"><mxGeometry x="200" y="200" width="120" height="50" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - USER -->
+<mxCell id="f3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e2" target="p0"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f3t" value="Yeu cau luu diem den&#xa;Thong tin lich trinh&#xa;Noi dung danh gia&#xa;Cap nhat profile" style="text;html=1;align=left;fontSize=9" vertex="1" parent="1"><mxGeometry x="200" y="300" width="120" height="60" as="geometry"/></mxCell>
+
+<mxCell id="f4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="400" y="360"/><mxPoint x="400" y="400"/></Array></mxGeometry></mxCell>
+<mxCell id="f4t" value="Danh sach da luu&#xa;Lich trinh ca nhan&#xa;Goi y ca nhan hoa" style="text;html=1;align=left;fontSize=9" vertex="1" parent="1"><mxGeometry x="200" y="390" width="120" height="50" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - ADMIN -->
+<mxCell id="f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e3" target="p0"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f5t" value="Quan ly nguoi dung&#xa;Quan ly diem den&#xa;Quan ly danh gia" style="text;html=1;align=left;fontSize=9" vertex="1" parent="1"><mxGeometry x="200" y="490" width="120" height="50" as="geometry"/></mxCell>
+
+<mxCell id="f6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="400" y="360"/><mxPoint x="400" y="590"/></Array></mxGeometry></mxCell>
+<mxCell id="f6t" value="Thong ke he thong&#xa;Danh sach quan ly" style="text;html=1;align=left;fontSize=9" vertex="1" parent="1"><mxGeometry x="200" y="570" width="120" height="40" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - CEREBRAS AI -->
+<mxCell id="f7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e4"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f7t" value="Cau hoi nguoi dung&#xa;Context du lieu" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="140" width="100" height="40" as="geometry"/></mxCell>
+
+<mxCell id="f8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e4" target="p0"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="800" y="175"/><mxPoint x="800" y="320"/></Array></mxGeometry></mxCell>
+<mxCell id="f8t" value="Cau tra loi AI&#xa;Goi y du lich" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="190" width="100" height="40" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - OPENWEATHER -->
+<mxCell id="f9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f9t" value="Toa do dia diem" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="260" width="100" height="20" as="geometry"/></mxCell>
+
+<mxCell id="f10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e5" target="p0"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="800" y="305"/><mxPoint x="800" y="350"/></Array></mxGeometry></mxCell>
+<mxCell id="f10t" value="Thoi tiet hien tai&#xa;Du bao 5 ngay" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="310" width="100" height="40" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - MONGODB -->
+<mxCell id="f11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f11t" value="Luu/Cap nhat du lieu" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="390" width="110" height="20" as="geometry"/></mxCell>
+
+<mxCell id="f12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e6" target="p0"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="800" y="435"/><mxPoint x="800" y="380"/></Array></mxGeometry></mxCell>
+<mxCell id="f12t" value="Du lieu nguoi dung&#xa;Diem den, Danh gia&#xa;Lich trinh, Chat" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="690" y="440" width="110" height="50" as="geometry"/></mxCell>
+
+<!-- DATA FLOWS - OPENSTREETMAP -->
+<mxCell id="f13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="p0" target="e7"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="f13t" value="Toa do hien thi" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="520" width="100" height="20" as="geometry"/></mxCell>
+
+<mxCell id="f14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" edge="1" parent="1" source="e7" target="p0"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="800" y="565"/><mxPoint x="800" y="400"/></Array></mxGeometry></mxCell>
+<mxCell id="f14t" value="Ban do tuong tac" style="text;html=1;align=right;fontSize=9" vertex="1" parent="1"><mxGeometry x="700" y="570" width="100" height="20" as="geometry"/></mxCell>
+
+<!-- LEGEND -->
+<mxCell id="leg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="650" width="300" height="100" as="geometry"/></mxCell>
+<mxCell id="leg1" value="CHU THICH" style="text;html=1;align=center;fontStyle=1" vertex="1" parent="1"><mxGeometry x="140" y="655" width="100" height="20" as="geometry"/></mxCell>
+<mxCell id="leg2" value="" style="rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="50" y="680" width="20" height="15" as="geometry"/></mxCell>
+<mxCell id="leg2t" value="Thuc the ngoai (Actor)" style="text;html=1;align=left;fontSize=10" vertex="1" parent="1"><mxGeometry x="80" y="677" width="120" height="20" as="geometry"/></mxCell>
+<mxCell id="leg3" value="" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="50" y="705" width="20" height="15" as="geometry"/></mxCell>
+<mxCell id="leg3t" value="Tien trinh (Process)" style="text;html=1;align=left;fontSize=10" vertex="1" parent="1"><mxGeometry x="80" y="702" width="120" height="20" as="geometry"/></mxCell>
+<mxCell id="leg4" value="" style="rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="50" y="730" width="20" height="15" as="geometry"/></mxCell>
+<mxCell id="leg4t" value="API ben ngoai" style="text;html=1;align=left;fontSize=10" vertex="1" parent="1"><mxGeometry x="80" y="727" width="100" height="20" as="geometry"/></mxCell>
+<mxCell id="leg5" value="→" style="text;html=1;align=center;fontSize=12" vertex="1" parent="1"><mxGeometry x="200" y="680" width="20" height="20" as="geometry"/></mxCell>
+<mxCell id="leg5t" value="Luong du lieu" style="text;html=1;align=left;fontSize=10" vertex="1" parent="1"><mxGeometry x="220" y="680" width="100" height="20" as="geometry"/></mxCell>
+
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

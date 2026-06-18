@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+<diagram name="Chat AI" id="wf4">
+<mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="title" value="WIREFRAME: CHAT AI" style="text;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="300" y="10" width="200" height="30" as="geometry"/></mxCell>
+
+<!-- Browser frame -->
+<mxCell id="frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="100" y="50" width="600" height="600" as="geometry"/></mxCell>
+
+<!-- Navbar -->
+<mxCell id="nav" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="100" y="50" width="600" height="50" as="geometry"/></mxCell>
+<mxCell id="logo" value="LOGO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="110" y="60" width="60" height="30" as="geometry"/></mxCell>
+
+<!-- Sidebar -->
+<mxCell id="sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="100" y="100" width="150" height="550" as="geometry"/></mxCell>
+<mxCell id="newchat" value="+ Cuoc hoi thoai moi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#404040;strokeColor=#000000;fontColor=#ffffff;fontSize=10" vertex="1" parent="1"><mxGeometry x="110" y="110" width="130" height="30" as="geometry"/></mxCell>
+<mxCell id="hist1" value="Du lich Da Nang..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#000000;fontSize=9;align=left;spacingLeft=5" vertex="1" parent="1"><mxGeometry x="110" y="150" width="130" height="30" as="geometry"/></mxCell>
+<mxCell id="hist2" value="Goi y Phu Quoc..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=9;align=left;spacingLeft=5" vertex="1" parent="1"><mxGeometry x="110" y="185" width="130" height="30" as="geometry"/></mxCell>
+<mxCell id="hist3" value="Lich trinh 3 ngay..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=9;align=left;spacingLeft=5" vertex="1" parent="1"><mxGeometry x="110" y="220" width="130" height="30" as="geometry"/></mxCell>
+
+<!-- Chat Area -->
+<mxCell id="chatarea" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="250" y="100" width="450" height="480" as="geometry"/></mxCell>
+
+<!-- User message -->
+<mxCell id="usermsg" value="Goi y cho toi diem du lich&#xa;o Da Nang 3 ngay" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10" vertex="1" parent="1"><mxGeometry x="450" y="120" width="200" height="50" as="geometry"/></mxCell>
+
+<!-- AI message -->
+<mxCell id="aimsg" value="Xin chao! Day la goi y lich trinh&#xa;3 ngay o Da Nang:&#xa;&#xa;Ngay 1: Nui Ba Na, Cau Vang&#xa;Ngay 2: Bien My Khe, Ngu Hanh Son&#xa;Ngay 3: Pho co Hoi An" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#000000;fontSize=10;align=left;spacingLeft=10" vertex="1" parent="1"><mxGeometry x="270" y="190" width="250" height="120" as="geometry"/></mxCell>
+
+<!-- Input -->
+<mxCell id="inputarea" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="250" y="580" width="450" height="70" as="geometry"/></mxCell>
+<mxCell id="input" value="Nhap cau hoi cua ban..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;spacingLeft=10;fontSize=10" vertex="1" parent="1"><mxGeometry x="270" y="595" width="350" height="40" as="geometry"/></mxCell>
+<mxCell id="sendbtn" value="Gui" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#404040;strokeColor=#000000;fontColor=#ffffff" vertex="1" parent="1"><mxGeometry x="630" y="595" width="50" height="40" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

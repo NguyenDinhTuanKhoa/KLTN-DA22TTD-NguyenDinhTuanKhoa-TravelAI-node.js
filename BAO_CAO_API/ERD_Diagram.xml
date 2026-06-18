@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net">
+<diagram name="ERD" id="erd1">
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="700">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="title" value="SO DO ERD - TRAVELAI" style="text;html=1;align=center;fontSize=16;fontStyle=1" vertex="1" parent="1"><mxGeometry x="450" y="10" width="300" height="30" as="geometry"/></mxCell>
+
+<!-- ROW 1: USERS, DESTINATIONS, REVIEWS -->
+<mxCell id="t1" value="USERS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="80" y="60" width="200" height="180" as="geometry"/></mxCell>
+<mxCell id="t1a" value="_id: ObjectId (PK)&#xa;name: String&#xa;email: String&#xa;password: String&#xa;role: String&#xa;preferences: Object&#xa;savedDestinations: [ObjectId]&#xa;createdAt: Date" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=25;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="80" y="60" width="200" height="180" as="geometry"/></mxCell>
+
+<mxCell id="t2" value="DESTINATIONS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="400" y="60" width="200" height="200" as="geometry"/></mxCell>
+<mxCell id="t2a" value="_id: ObjectId (PK)&#xa;name: String&#xa;description: String&#xa;category: String&#xa;location: Object&#xa;images: [String]&#xa;cuisine: Object&#xa;priceRange: String&#xa;createdAt: Date" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=25;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="400" y="60" width="200" height="200" as="geometry"/></mxCell>
+
+<mxCell id="t3" value="REVIEWS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="720" y="60" width="200" height="180" as="geometry"/></mxCell>
+<mxCell id="t3a" value="_id: ObjectId (PK)&#xa;user: ObjectId (FK)&#xa;destination: ObjectId (FK)&#xa;rating: Number&#xa;title: String&#xa;content: String&#xa;visitDate: Date&#xa;createdAt: Date" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=25;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="720" y="60" width="200" height="180" as="geometry"/></mxCell>
+
+<!-- ROW 2: ITINERARIES, CHAT_HISTORY -->
+<mxCell id="t4" value="ITINERARIES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="240" y="340" width="200" height="160" as="geometry"/></mxCell>
+<mxCell id="t4a" value="_id: ObjectId (PK)&#xa;user: ObjectId (FK)&#xa;name: String&#xa;startDate: Date&#xa;endDate: Date&#xa;destinations: [ObjectId]&#xa;createdAt: Date" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=25;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="240" y="340" width="200" height="160" as="geometry"/></mxCell>
+
+<mxCell id="t5" value="CHAT_HISTORY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="560" y="340" width="200" height="160" as="geometry"/></mxCell>
+<mxCell id="t5a" value="_id: ObjectId (PK)&#xa;user: ObjectId (FK)&#xa;title: String&#xa;messages: [Object]&#xa;createdAt: Date&#xa;updatedAt: Date" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=25;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="560" y="340" width="200" height="160" as="geometry"/></mxCell>
+
+<!-- RELATIONSHIPS -->
+<mxCell id="r1" value="1-N" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="280" y="130" as="sourcePoint"/><mxPoint x="720" y="130" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r2" value="1-N" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="600" y="150" as="sourcePoint"/><mxPoint x="720" y="150" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r3" value="1-N" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="180" y="240" as="sourcePoint"/><mxPoint x="180" y="300" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r3b" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="180" y="300" as="sourcePoint"/><mxPoint x="340" y="300" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r3c" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="340" y="300" as="sourcePoint"/><mxPoint x="340" y="340" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r4" value="1-N" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="180" y="240" as="sourcePoint"/><mxPoint x="180" y="310" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r4b" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="180" y="310" as="sourcePoint"/><mxPoint x="660" y="310" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="r4c" style="endArrow=none;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="660" y="310" as="sourcePoint"/><mxPoint x="660" y="340" as="targetPoint"/></mxGeometry></mxCell>
+
+<!-- LEGEND -->
+<mxCell id="leg" value="CHU THICH&#xa;PK = Primary Key&#xa;FK = Foreign Key&#xa;1-N = Quan he mot-nhieu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=10;verticalAlign=top;spacingTop=5;" vertex="1" parent="1"><mxGeometry x="840" y="340" width="180" height="80" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

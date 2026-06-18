@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+<diagram name="Tao lich trinh" id="act4">
+<mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="t4" value="ACTIVITY DIAGRAM: TAO LICH TRINH" style="text;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="230" y="10" width="340" height="30" as="geometry"/></mxCell>
+
+<mxCell id="start4" value="" style="ellipse;fillColor=#000000;" vertex="1" parent="1"><mxGeometry x="385" y="50" width="30" height="30" as="geometry"/></mxCell>
+
+<mxCell id="h1" value="Chon Tao lich trinh moi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="320" y="100" width="160" height="40" as="geometry"/></mxCell>
+<mxCell id="h2" value="Nhap ten, ngay bat dau/ket thuc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="300" y="160" width="200" height="40" as="geometry"/></mxCell>
+<mxCell id="h3" value="Them diem den vao lich trinh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="300" y="220" width="200" height="40" as="geometry"/></mxCell>
+<mxCell id="h4" value="Luu lich trinh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="320" y="280" width="160" height="40" as="geometry"/></mxCell>
+<mxCell id="h5" value="Hien thi thanh cong" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="320" y="340" width="160" height="40" as="geometry"/></mxCell>
+
+<mxCell id="end4" value="" style="ellipse;fillColor=#000000;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="385" y="410" width="30" height="30" as="geometry"/></mxCell>
+
+<mxCell id="i1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="start4" target="h1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="h1" target="h2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="h2" target="h3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="h3" target="h4"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="h4" target="h5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="h5" target="end4"><mxGeometry relative="1" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

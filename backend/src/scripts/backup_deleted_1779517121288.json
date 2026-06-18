@@ -1,0 +1,2805 @@
+[
+  {
+    "_id": "6a05d38c2d5de82aa7ad2ce4",
+    "name": "OWA SUSHI Bến Tre",
+    "description": "Địa chỉ: Số 41 Đường 30 Tháng 4, An Hội, Vĩnh Long 86000, Vietnam | SĐT: +84 889 407 078 | Giờ mở cửa: 10 AM–2:30 PM, 4–9:30 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2378225,
+        "lng": 106.3754383
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7426349126897437959&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.8,
+    "reviewCount": 486,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T13:52:12.522Z",
+    "updatedAt": "2026-05-23T06:05:02.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d38d2d5de82aa7ad2cf6",
+    "name": "Nhà Hàng Sơm Minh Châu Bến Tre",
+    "description": "Địa chỉ: khu phố 3, Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 945 493 975 | Website: http://amthucxuduaminhchau.com/ | Giờ mở cửa: Open 24 hours",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2410559,
+        "lng": 106.3861154
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122093061417148427",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122093062041148427",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122105910525148427"
+    ],
+    "category": "restaurant",
+    "rating": 4.3,
+    "reviewCount": 3,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T13:52:13.956Z",
+    "updatedAt": "2026-05-21T15:38:13.868Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d38e2d5de82aa7ad2cf9",
+    "name": "Bò Sốt Hẻm - TP.Bến Tre",
+    "description": "Địa chỉ: 69XH+HCQ, Phú Khương, Vĩnh Long, Vietnam | Giờ mở cửa: 8:30 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2489726,
+        "lng": 106.3786233
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7623995798292221191&location=0&aid=1988",
+      "https://bosothem.com/wp-content/uploads/2022/03/272021490_1046983919367390_691401520999798436_n.jpg",
+      "https://www.tiktok.com/api/img/?itemId=7612729124746054932&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.2,
+    "reviewCount": 65,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T13:52:14.106Z",
+    "updatedAt": "2026-05-23T06:05:09.995Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d38e2d5de82aa7ad2cfc",
+    "name": "Dookki Bến Tre",
+    "description": "Địa chỉ: Võ Nguyên Giáp, Ấp 1, Sơn Đông, Vĩnh Long, Vietnam | Website: https://dookkivietnam.vn/ | Giờ mở cửa: 10:30 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2546126,
+        "lng": 106.36031229999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7276653553958014210&location=0&aid=1988",
+      "https://i.imgur.com/KmWWjMH.jpg"
+    ],
+    "category": "restaurant",
+    "rating": 4.9,
+    "reviewCount": 1067,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T13:52:14.228Z",
+    "updatedAt": "2026-05-23T06:05:13.331Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5b65c06f1b29186c383",
+    "name": "The Little House Cotton White",
+    "description": "Địa chỉ: Căn E2, Đường D5, Khu đô thị Hưng Phú, Phú Tân, Vĩnh Long 86000, Vietnam | SĐT: +84 839 398 979 | Website: https://thelittlehousehomestay.com/",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.257918199999999,
+        "lng": 106.3775861
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=580971304867800",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=681517898146473",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=681518254813104"
+    ],
+    "category": "hotel",
+    "rating": 4.3,
+    "reviewCount": 16,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:26.690Z",
+    "updatedAt": "2026-05-21T15:38:43.521Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5b85c06f1b29186c399",
+    "name": "Nhà nghỉ số 1",
+    "description": "Địa chỉ: Võ Văn Phẩm, Sơn Đông, Vĩnh Long, Vietnam | SĐT: +84 917 590 482 | Website: https://www.facebook.com/nhanghiso1bentre/",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2486527,
+        "lng": 106.35465169999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063599000062",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1324856052977682",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=723522950598792&get_thumbnail=1"
+    ],
+    "category": "hotel",
+    "rating": 4.3,
+    "reviewCount": 29,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:28.821Z",
+    "updatedAt": "2026-05-21T15:38:45.525Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5b95c06f1b29186c3ba",
+    "name": "saigon open hearts",
+    "description": "Địa chỉ: 95/3c duong, Âu Cơ, ap my an c, An Hội, Vĩnh Long 93000, Vietnam | SĐT: +84 769 173 361",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2294425,
+        "lng": 106.36506179999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/threads/DOcxmY2gRKi/3/image.jpg",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064646381178",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1399192348912298"
+    ],
+    "category": "hotel",
+    "rating": 5,
+    "reviewCount": 2,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:29.986Z",
+    "updatedAt": "2026-05-21T15:38:57.873Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c35c06f1b29186c3d8",
+    "name": "LẨU NẤM TRẦN PHỐ - BẾN TRE",
+    "description": "Địa chỉ: Vòng xoay Đông Tây, Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 337 654 877 | Giờ mở cửa: 10 AM–12:30 PM, 4–8:30 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2472447,
+        "lng": 106.3739013
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7335786726566219009&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7447707773292317960&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.4,
+    "reviewCount": 172,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:39.944Z",
+    "updatedAt": "2026-05-23T06:05:26.541Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c45c06f1b29186c3e7",
+    "name": "Mì Cay Hagu Bến Tre",
+    "description": "Địa chỉ: Đại Lộ Đồng Khởi, Phú Khương, Vĩnh Long 86000, Vietnam | SĐT: +84 937 102 532 | Giờ mở cửa: 8 AM–10:30 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.245710599999999,
+        "lng": 106.37509089999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122223824672306747",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122254729820306747",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61559202413668"
+    ],
+    "category": "restaurant",
+    "rating": 4.6,
+    "reviewCount": 173,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:40.496Z",
+    "updatedAt": "2026-05-21T15:39:10.590Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c45c06f1b29186c3f0",
+    "name": "King BBQ Bến Tre",
+    "description": "Địa chỉ: 290 Võ Nguyên Giáp, khu phố 1, Sơn Đông, Vĩnh Long, Vietnam | SĐT: +84 275 6277 788 | Website: http://kingbbq.com.vn/ | Giờ mở cửa: 10:30 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2512721,
+        "lng": 106.3568229
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7271117278681287941&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 3.8,
+    "reviewCount": 676,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:40.832Z",
+    "updatedAt": "2026-05-23T06:05:33.960Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c45c06f1b29186c3f3",
+    "name": "Chicken Talk Bến Tre",
+    "description": "Địa chỉ: 297A3 Đại Lộ Đồng Khởi, Phú Tân, Vĩnh Long, Vietnam | Giờ mở cửa: 9:30 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2536533,
+        "lng": 106.3705289
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7585420367485947156&location=3&aid=1988&index=0",
+      "https://www.tiktok.com/api/img/?itemId=7584834960851307796&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.3,
+    "reviewCount": 84,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:40.943Z",
+    "updatedAt": "2026-05-23T06:05:37.510Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c55c06f1b29186c3fc",
+    "name": "Bít Tết THƯ - Bến Tre",
+    "description": "Địa chỉ: 64A4 Đại Lộ Đồng Khởi, Phú Tân, Vĩnh Long, Vietnam | SĐT: +84 988 817 711 | Giờ mở cửa: 7 AM–12 PM, 3:30–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2570528,
+        "lng": 106.36504819999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7172135222786428162&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.3,
+    "reviewCount": 196,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:41.263Z",
+    "updatedAt": "2026-05-23T06:05:40.126Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c55c06f1b29186c402",
+    "name": "Quán Lẩu Cù Lao Bến Tre",
+    "description": "Địa chỉ: Đường số 6, Phú Khương, Vĩnh Long 86000, Vietnam | SĐT: +84 907 861 161 | Giờ mở cửa: 3–10:30 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2500328,
+        "lng": 106.3781164
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7617795549923822869&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.1,
+    "reviewCount": 40,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:41.480Z",
+    "updatedAt": "2026-05-23T06:05:43.323Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c75c06f1b29186c41f",
+    "name": "Nhà Hàng Đại Sứ Quán",
+    "description": "Địa chỉ: ấp Phước Hậu, Phước Mỹ Trung, Vĩnh Long 932230, Vietnam | SĐT: +84 275 3678 679 | Giờ mở cửa: Open 24 hours",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.192012199999999,
+        "lng": 106.270111
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1320523809605957",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=613339486991063",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1320523882939283"
+    ],
+    "category": "restaurant",
+    "rating": 4.3,
+    "reviewCount": 103,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:43.886Z",
+    "updatedAt": "2026-05-21T15:39:36.262Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c85c06f1b29186c428",
+    "name": "Bì bún CHAY chợ Bến Tre",
+    "description": "Địa chỉ: Sạp số 1 Khu ăn uống, Chợ, Đại Lộ Đồng Khởi, An Hội, Vĩnh Long, Vietnam | SĐT: +84 364 010 268 | Giờ mở cửa: 6 AM–12:30 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.234722699999999,
+        "lng": 106.3757792
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7488552338848894263&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 7,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:44.213Z",
+    "updatedAt": "2026-05-23T06:05:49.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c85c06f1b29186c42b",
+    "name": "Mì Cay Michigo Bến Tre",
+    "description": "Địa chỉ: 71b1 Đại Lộ Đồng Khởi, Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 939 039 652 | Giờ mở cửa: 8 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.250268499999999,
+        "lng": 106.3727768
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7567947006853860629&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.6,
+    "reviewCount": 66,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:44.316Z",
+    "updatedAt": "2026-05-23T06:05:52.956Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c85c06f1b29186c42e",
+    "name": "BÚN ĐẬU MẸT BẾN TRE",
+    "description": "Địa chỉ: Sân vận động Tỉnh Bến Tre 324 Sân Vận Động Tỉnh P, Phú Tân, Vĩnh Long, Vietnam | SĐT: +84 916 153 551 | Giờ mở cửa: 9 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2531191,
+        "lng": 106.3624763
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7501144455039241492&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.2,
+    "reviewCount": 181,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:44.420Z",
+    "updatedAt": "2026-05-23T06:05:56.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c85c06f1b29186c43d",
+    "name": "Cơm 0 Đồng Hòa Nhã Bến Tre",
+    "description": "Địa chỉ: 69R9+9G6, 457c, 457c Trương Định, Sơn Đông, Vĩnh Long, Vietnam | Giờ mở cửa: 6–8 AM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2417026,
+        "lng": 106.3683246
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61557578805483",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122110271996252626",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122190853658252626"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:44.955Z",
+    "updatedAt": "2026-05-21T15:39:48.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5c95c06f1b29186c441",
+    "name": "Ẩm thực chay Tạ Ơn",
+    "description": "Địa chỉ: 7E Quốc lộ N2 khu phố Mỹ Tân, Bến Tre, Vĩnh Long, Vietnam | SĐT: +84 275 2467 688 | Giờ mở cửa: 8 AM–9 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2350499,
+        "lng": 106.3621797
+      }
+    },
+    "images": [
+      "https://bloganchoi.com/wp-content/uploads/2021/12/anh-dai-dien-3.jpg",
+      "https://blogamthuc365.edu.vn/wp-content/uploads/2024/05/am-thuc-chay-ta-on-luon-la-su-lua-chon-tuyet-voi-khi-den-voi-ben-tre_6635d04a2bfc0.webp",
+      "https://buoidaxanhobentre.wordpress.com/wp-content/uploads/2020/03/am-thuc-chay-ta-on-ben-tre-02.jpg?w=700&h=395"
+    ],
+    "category": "restaurant",
+    "rating": 4.1,
+    "reviewCount": 264,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:45.113Z",
+    "updatedAt": "2026-05-23T06:06:02.611Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cc5c06f1b29186c447",
+    "name": "Tiệm Lẩu Bò Giáo Sĩ Bến Tre",
+    "description": "Địa chỉ: Đ. Nguyễn Văn Nguyễn, An Hội, Vĩnh Long, Vietnam | SĐT: +84 943 024 723",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2238072,
+        "lng": 106.3662988
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7187094301065612571&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7595146678324169992&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 3.6,
+    "reviewCount": 49,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:48.521Z",
+    "updatedAt": "2026-05-23T06:06:05.639Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cc5c06f1b29186c44d",
+    "name": "Riro Korean Food - Bến Tre",
+    "description": "Địa chỉ: 42k Đường Số 5, khu phố 3, Khu dân cư Ao Sen, Phú Tân, Vĩnh Long, Vietnam | SĐT: +84 868 222 792 | Giờ mở cửa: 10 AM–9 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2549168,
+        "lng": 106.36296159999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1436857498445538",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063639030192",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1432795388851749"
+    ],
+    "category": "restaurant",
+    "rating": 4.3,
+    "reviewCount": 65,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:48.729Z",
+    "updatedAt": "2026-05-21T15:39:58.039Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cc5c06f1b29186c450",
+    "name": "Mì Cay ITADA Bến Tre",
+    "description": "Địa chỉ: A12 Đường D3, Khu Đô Thị Hưng Phú P, Phú Tân, Vĩnh Long 930000, Vietnam | SĐT: +84 275 6288 222 | Website: https://sites.google.com/view/itadabentre | Giờ mở cửa: 8:30 AM–11:30 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.256694399999999,
+        "lng": 106.3773734
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=570298459329791",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4417618821813976&get_thumbnail=1",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=225911143768526"
+    ],
+    "category": "restaurant",
+    "rating": 4.4,
+    "reviewCount": 23,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:48.836Z",
+    "updatedAt": "2026-05-21T15:39:59.619Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cc5c06f1b29186c453",
+    "name": "Quán ăn sân vườn Cậu Ba",
+    "description": "Địa chỉ: ấp 3, Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 833 294 481 | Giờ mở cửa: 8:30 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.210691599999999,
+        "lng": 106.4093377
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=696622492878825",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=839645421909864",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100075932411001"
+    ],
+    "category": "countryside",
+    "rating": 4.6,
+    "reviewCount": 33,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:48.940Z",
+    "updatedAt": "2026-05-21T15:40:01.348Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cd5c06f1b29186c456",
+    "name": "Gà nướng Già K’Leo Bến tre",
+    "description": "Địa chỉ: 69JG+CQ4, Cầu Bến Tre, An Hội, Vĩnh Long, Vietnam | SĐT: +84 988 347 518 | Giờ mở cửa: 3:30–9 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2310169,
+        "lng": 106.3769638
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7409234570056322320&location=0&aid=1988",
+      "https://i.ytimg.com/vi/I58Nt-OOQy0/maxresdefault.jpg",
+      "https://cdn.tgdd.vn/2024/12/CookRecipe/Avatar/ga-tre-nuong-mat-ong-thumbnail-1.jpg"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:49.047Z",
+    "updatedAt": "2026-05-23T06:06:18.642Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cd5c06f1b29186c459",
+    "name": "Lẩu Nướng 35 Quảng Trường Tp Bến Tre",
+    "description": "Địa chỉ: Đ. Nguyễn Văn Nguyễn, An Hội, Vĩnh Long, Vietnam | SĐT: +84 971 302 168 | Giờ mở cửa: 9 AM–12 AM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.224087299999999,
+        "lng": 106.36666419999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100091740555012",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122102577476414390",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61562431711117"
+    ],
+    "category": "restaurant",
+    "rating": 3.5,
+    "reviewCount": 19,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:49.153Z",
+    "updatedAt": "2026-05-21T15:40:05.387Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cd5c06f1b29186c45c",
+    "name": "Chè Thái Yaya Mini Bến Tre",
+    "description": "Địa chỉ: 7995+3G6, QL60, Sơn Đông, Vĩnh Long, Vietnam | SĐT: +84 796 117 889",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.267722299999999,
+        "lng": 106.3587077
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064081930697",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=861157496030307",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=837704771708913"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 4,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:49.259Z",
+    "updatedAt": "2026-05-21T15:40:07.410Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5cd5c06f1b29186c46f",
+    "name": "Gà Quay 255 - Bến Tre",
+    "description": "Địa chỉ: 500B4 Đại Lộ Đồng Khởi, Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 387 979 255 | Giờ mở cửa: 8 AM–9 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2503456,
+        "lng": 106.3732256
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122107493121083956",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1363484122107896&get_thumbnail=1",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122108362221083956"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 9,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:49.945Z",
+    "updatedAt": "2026-05-21T15:40:15.790Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5ce5c06f1b29186c47b",
+    "name": "Quán Cháo Lòng Cầu Bến Tre 2",
+    "description": "Địa chỉ: 89 Hùng Vương, Bến Tre, Vĩnh Long, Vietnam | SĐT: +84 275 3825 110 | Giờ mở cửa: 6 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2296789,
+        "lng": 106.361339
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7417053831114132756&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7544586179283356935&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4,
+    "reviewCount": 183,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:50.369Z",
+    "updatedAt": "2026-05-23T06:06:33.751Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d45c06f1b29186c4c5",
+    "name": "Kem Xôi Dừa - Bến Tre",
+    "description": "Địa chỉ: 301 C, Số 2/301 chợ p7, khu phố 3, Bến Tre, Vĩnh Long, Vietnam | SĐT: +84 903 744 899 | Giờ mở cửa: 12 AM–11 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2334977,
+        "lng": 106.3585943
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7580000599916252423&location=0&aid=1988",
+      "https://lofita.vn/wp-content/uploads/2026/03/kem-xoi-dua-ben-tre-97e992.webp",
+      "https://www.tiktok.com/api/img/?itemId=7479650073534647568&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.2,
+    "reviewCount": 172,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:56.632Z",
+    "updatedAt": "2026-05-23T06:06:38.362Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d45c06f1b29186c4cc",
+    "name": "Coco Garden Bến Tre - Điểm Tâm & Ẩm Thực Sân Vườn",
+    "description": "Địa chỉ: 492C3 Ca Văn Thỉnh, Phú Khương, Vĩnh Long 70000, Vietnam | SĐT: +84 888 868 130 | Giờ mở cửa: 6:30 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2504054,
+        "lng": 106.37787329999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7278516821496712456&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7490531911136251154&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7480504498666917121&location=0&aid=1988"
+    ],
+    "category": "countryside",
+    "rating": 4,
+    "reviewCount": 137,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:56.896Z",
+    "updatedAt": "2026-05-23T06:06:40.421Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d55c06f1b29186c4d2",
+    "name": "Gà Quay 217 - Bến Tre",
+    "description": "Địa chỉ: TAXI, 39 Nguyễn Thị Định, Phú Tân, Vĩnh Long 86000, Vietnam | SĐT: +84 962 319 217 | Giờ mở cửa: 9 AM–6 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2543156,
+        "lng": 106.37392559999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100068319521458",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=669427998677845",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=723844649902846"
+    ],
+    "category": "restaurant",
+    "rating": 2.7,
+    "reviewCount": 26,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:57.105Z",
+    "updatedAt": "2026-05-21T15:40:43.271Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d55c06f1b29186c4d5",
+    "name": "Quán 379, phú tự, phú hưng, bến tre",
+    "description": "Địa chỉ: 6CW6+2C4, Phú Khương, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2450212,
+        "lng": 106.4110915
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7533435857005464853&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:57.210Z",
+    "updatedAt": "2026-05-23T06:06:45.310Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d55c06f1b29186c4e2",
+    "name": "Bún Riêu Cua Dì Bảy (Bờ Sông Chợ Bến Tre)",
+    "description": "Địa chỉ: Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 941 633 138 | Giờ mở cửa: 5:30–11 AM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2491861,
+        "lng": 106.3778155
+      }
+    },
+    "images": [
+      "https://www.lemon8-app.com/seo/image?item_id=7486511926659400193&index=0&sign=ca140e102830e255e947a48808197c5c",
+      "https://bentretoplist.com/wp-content/uploads/2023/11/bun-rieu-cua-di-bay-bo-song-cho-ben-tre-bentretoplist.jpg",
+      "https://www.lemon8-app.com/seo/image?item_id=7486511926659400193&index=2&sign=c6e50df7ad6bede0937ed32ea8098de0"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 4,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:01:57.681Z",
+    "updatedAt": "2026-05-23T06:06:56.913Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d85c06f1b29186c4f9",
+    "name": "Cửa hàng Đông trùng Hạ thảo Bến Tre",
+    "description": "Địa chỉ: 359/1D Đ. Nguyễn Văn Nguyễn, An Hội, Vĩnh Long 930000, Vietnam | SĐT: +84 915 723 768",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2252081,
+        "lng": 106.36843909999999
+      }
+    },
+    "images": [
+      "https://linhchinonglam.com/wp-content/uploads/2021/04/top-dia-chi-ban-dong-trung-ha-thao-o-ben-tre-1.jpg",
+      "https://bentretoplist.com/wp-content/uploads/2026/05/top-10-mini-mart-tai-ben-tre-da-dang-cac-mat-hang-gia-tot-bentretoplist.jpg"
+    ],
+    "category": "restaurant",
+    "rating": 0,
+    "reviewCount": 0,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:02:00.256Z",
+    "updatedAt": "2026-05-23T06:07:00.348Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d85c06f1b29186c4fc",
+    "name": "CHÈ NGỌC THẠCH BẾN TRE",
+    "description": "Địa chỉ: 44B1 Đại Lộ Đồng Khởi, Phú Khương, Vĩnh Long, Vietnam | SĐT: +84 702 667 899 | Website: https://www.facebook.com/ngocthachquanbentre | Giờ mở cửa: 9 AM–10 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.252450399999999,
+        "lng": 106.3714581
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=836190291855095",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1429267122547406",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063923957251"
+    ],
+    "category": "restaurant",
+    "rating": 3.8,
+    "reviewCount": 12,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:02:00.362Z",
+    "updatedAt": "2026-05-21T15:40:52.047Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d85c06f1b29186c503",
+    "name": "Bánh Khọt Vũng Tàu cô Dung Bến Tre",
+    "description": "Địa chỉ: 8966+3CG, QL60, Phú Túc, Vĩnh Long, Vietnam | SĐT: +84 379 716 538",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.310197299999999,
+        "lng": 106.36108519999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7367354923450715409&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7627566836896238855&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.5,
+    "reviewCount": 8,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:02:00.634Z",
+    "updatedAt": "2026-05-23T06:07:07.604Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d85c06f1b29186c509",
+    "name": "Quán Ốc Phường 3",
+    "description": "Địa chỉ: 63 Lãnh Binh Thăng, An Hội, Vĩnh Long, Vietnam | SĐT: +84 988 957 191 | Giờ mở cửa: 3–11 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.238133699999999,
+        "lng": 106.3737967
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=895717229737523",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100078977635262",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=976812824825514&get_thumbnail=1"
+    ],
+    "category": "restaurant",
+    "rating": 3.9,
+    "reviewCount": 105,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:02:00.847Z",
+    "updatedAt": "2026-05-21T15:41:01.175Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5d85c06f1b29186c50c",
+    "name": "Trạm Ăn Vặt - Dính Food - Bến Tre",
+    "description": "Địa chỉ: 530B4 Đại Lộ Đồng Khởi, Phú Khương, Vĩnh Long 86100, Vietnam | SĐT: +84 366 079 321",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2509829,
+        "lng": 106.373139
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122117080922000942",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=940401758445729&get_thumbnail=1",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122328007250000942"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:02:00.952Z",
+    "updatedAt": "2026-05-21T15:41:03.995Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a05d5de5c06f1b29186c545",
+    "name": "Hồ Câu Vườn Dừa",
+    "description": "Địa chỉ: Bến Tre, Vĩnh Long, Vietnam | Website: https://www.docaumientay.com/ | Giờ mở cửa: 7 AM–5 PM",
+    "location": {
+      "city": "Bến Tre",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.243016299999999,
+        "lng": 106.35239569999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100088699204680",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=793429176135719",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=291987023751290"
+    ],
+    "category": "countryside",
+    "rating": 4.4,
+    "reviewCount": 7,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-14T14:02:06.185Z",
+    "updatedAt": "2026-05-21T15:41:10.251Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0aaff48bf57999e99e77a0",
+    "name": "Nhà nghỉ 68 Trà Vinh",
+    "description": "Địa chỉ: W847+9G4, ĐH11, Phường 8, Trà Vhttps://www.google.com/local/place/rap/edit/locationinh, Nguyệt Hóa, Vĩnh Long, Vietnam | SĐT: +84 384 874 538 | Website: http://nhanghi68travinh.com/",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.903758,
+        "lng": 106.3189441
+      }
+    },
+    "images": [
+      "http://nhanghi68travinh.com/thumbs/1276x956x2/upload/news/z6938971390367565384fbc5dffd8c7e6386c0f53b6771-1927.jpg",
+      "http://nhanghi68travinh.com/thumbs/550x620x1/upload/news/z4035693720993b63c02e500127647a33d6a26dd66ee0c-6975.jpg",
+      "http://nhanghi68travinh.com/thumbs/730x400x1/upload/news/z6938968541159159dd5edaa5dd2b24db450c850dd7ff1-5872.jpg"
+    ],
+    "category": "hotel",
+    "rating": 4.5,
+    "reviewCount": 16,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:21:40.593Z",
+    "updatedAt": "2026-05-23T06:07:22.930Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0aaff88bf57999e99e77a7",
+    "name": "Nhà Nghỉ Toàn Trân",
+    "description": "Địa chỉ: khóm 2, Tiểu Cần, Vĩnh Long 87000, Vietnam | SĐT: +84 372 738 002",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.815514799999999,
+        "lng": 106.19387329999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7249267441186950405&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7248178324936215814&location=0&aid=1988"
+    ],
+    "category": "hotel",
+    "rating": 4.7,
+    "reviewCount": 123,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:21:44.985Z",
+    "updatedAt": "2026-05-23T06:07:26.056Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab00f8bf57999e99e77b6",
+    "name": "Nhà nghỉ Lovely",
+    "description": "Địa chỉ: Số 199 Mậu Thân, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 294 6277 789",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.901213799999999,
+        "lng": 106.3336933
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100034329135412",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1340597793761179",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=243413362148975&get_thumbnail=1"
+    ],
+    "category": "hotel",
+    "rating": 4.4,
+    "reviewCount": 20,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:22:07.139Z",
+    "updatedAt": "2026-05-21T15:41:36.888Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab01c8bf57999e99e77c0",
+    "name": "MIA trà vinh",
+    "description": "Địa chỉ: 234 Mậu Thân, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 789 949 496",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9087175,
+        "lng": 106.33441739999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122201097032145373",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122137232486145373",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122201091176145373"
+    ],
+    "category": "hotel",
+    "rating": 4.6,
+    "reviewCount": 29,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:22:20.981Z",
+    "updatedAt": "2026-05-21T15:41:39.006Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0398bf57999e99e77d0",
+    "name": "HOTEL SANH PHÚC",
+    "description": "Địa chỉ: 419 Đ. Đồng Khởi, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 294 3737 999",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.916246899999999,
+        "lng": 106.3437027
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2585012724945736",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2625686104211731",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100078015796140"
+    ],
+    "category": "hotel",
+    "rating": 4.5,
+    "reviewCount": 137,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:22:49.792Z",
+    "updatedAt": "2026-05-21T15:41:44.189Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0438bf57999e99e77db",
+    "name": "Nhà Trọ Minh Quân",
+    "description": "Địa chỉ: 113 Lê Lợi, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 948 938 289",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9456629,
+        "lng": 106.34230459999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122111080442706692",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2306502936385181",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122100258398706692"
+    ],
+    "category": "hotel",
+    "rating": 4.8,
+    "reviewCount": 16,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:22:59.753Z",
+    "updatedAt": "2026-05-21T15:41:45.957Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab04a8bf57999e99e77e3",
+    "name": "Nhà Nghỉ - Karaoke Thiện Quang",
+    "description": "Địa chỉ: W8RP+PV3, Trà Vinh, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9417593,
+        "lng": 106.3371655
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7484117876639550727&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7411448877951225096&location=0&aid=1988"
+    ],
+    "category": "hotel",
+    "rating": 4.2,
+    "reviewCount": 13,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:23:06.514Z",
+    "updatedAt": "2026-05-23T06:07:42.193Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0558bf57999e99e77ec",
+    "name": "Nhà Nghỉ Gia Tuấn",
+    "description": "Địa chỉ: Mậu Thân, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 974 483 546",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9196739,
+        "lng": 106.3378042
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7477226921491762450&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7537218872831675666&location=0&aid=1988"
+    ],
+    "category": "hotel",
+    "rating": 3.9,
+    "reviewCount": 28,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:23:17.725Z",
+    "updatedAt": "2026-05-23T06:07:48.099Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0728bf57999e99e7803",
+    "name": "Nguyet Que Hotel",
+    "description": "Địa chỉ: X85R+VMX, Vũ Đình Liệu, Long Đức, Vĩnh Long, Vietnam | SĐT: +84 939 716 849",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.959738399999999,
+        "lng": 106.3417432
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100054618091661",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=874819655989270",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1044662069005027"
+    ],
+    "category": "hotel",
+    "rating": 4.1,
+    "reviewCount": 102,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:23:46.422Z",
+    "updatedAt": "2026-05-21T15:42:03.589Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0848bf57999e99e7815",
+    "name": "Lê Ngân Homestay",
+    "description": "Địa chỉ: Tập Ngãi, Vĩnh Long, Vietnam | SĐT: +84 777 497 778",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.8163597,
+        "lng": 106.26692589999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100092671907970",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=498462406586152",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=204433019322427"
+    ],
+    "category": "hotel",
+    "rating": 4.9,
+    "reviewCount": 84,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:24:04.629Z",
+    "updatedAt": "2026-05-21T15:42:05.048Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab09d8bf57999e99e7827",
+    "name": "Nhà Nghỉ Tân Tân",
+    "description": "Địa chỉ: X82M+GRQ, Trà Vinh, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9513316,
+        "lng": 106.3346061
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7475745281552698632&location=0&aid=1988",
+      "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oI3BnMpYGKRuE9WEFhACeQQDEgYUQtPB8VfpYt~tplv-tiktokx-dmt-logom:tos-alisg-i-0068/ogFlXAmShAYyDYeAE0tCCjKEoxEfQexAIQ8AID.image?dr=9634&x-expires=1777618800&x-signature=SRdDWj6DSQT%2FO2kfSzJfBJmDDJA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=55bbe6a9&idc=useast8"
+    ],
+    "category": "hotel",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:24:29.373Z",
+    "updatedAt": "2026-05-23T06:08:00.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0a38bf57999e99e782b",
+    "name": "Nhà nghỉ Phát Đạt",
+    "description": "Địa chỉ: QL54, ấp Chợ, Tập Sơn, Vĩnh Long 87000, Vietnam | SĐT: +84 939 434 233",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.7376191,
+        "lng": 106.2558796
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100024542674350",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2051935815634488",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61575205713006"
+    ],
+    "category": "hotel",
+    "rating": 4.3,
+    "reviewCount": 30,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:24:35.849Z",
+    "updatedAt": "2026-05-21T15:42:09.285Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0b48bf57999e99e783b",
+    "name": "Nhà trọ You And Me",
+    "description": "Địa chỉ: W83M+J9G, Mậu Thân, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 868 065 007",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.904059,
+        "lng": 106.3334481
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7632195747894611218&location=3&aid=1988&index=0"
+    ],
+    "category": "hotel",
+    "rating": 5,
+    "reviewCount": 4,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:24:52.574Z",
+    "updatedAt": "2026-05-23T06:08:06.031Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0ca8bf57999e99e7851",
+    "name": "Nhà Nghỉ Hà Mi",
+    "description": "Địa chỉ: 361 Sơn Thông, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 294 2201 111 | Website: http://nhanghihami.com.tv.vn/",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.906918,
+        "lng": 106.32376819999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=5182950361929128",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4727203074170528",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4633018333589003"
+    ],
+    "category": "hotel",
+    "rating": 2.8,
+    "reviewCount": 4,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:25:14.913Z",
+    "updatedAt": "2026-05-21T15:42:15.833Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab0e48bf57999e99e7864",
+    "name": "Nhà nghỉ Út Thanh",
+    "description": "Địa chỉ: 369 Dương Quang Đông, Hòa Thuận, Vĩnh Long, Vietnam | SĐT: +84 919 483 355",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9336448,
+        "lng": 106.3451867
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=488082423329278",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2327006957434409",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063825729940"
+    ],
+    "category": "hotel",
+    "rating": 3.9,
+    "reviewCount": 51,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:25:40.932Z",
+    "updatedAt": "2026-05-21T15:42:20.112Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1528bf57999e99e78c1",
+    "name": "Nhà Nghỉ 8888",
+    "description": "Địa chỉ: 8 Thạch Ngọc Biên Nối Dài, Ấp Tân Ngại, Song Lộc, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9013787,
+        "lng": 106.32073589999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7561705562132598024&location=0&aid=1988"
+    ],
+    "category": "hotel",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:27:30.992Z",
+    "updatedAt": "2026-05-23T06:08:14.223Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1638bf57999e99e78c4",
+    "name": "Nhà nghỉ Hoa Hồng",
+    "description": "Địa chỉ: W8JV+QHG, Khóm 9, Trà Vinh, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9319619,
+        "lng": 106.3440195
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100051135741977",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=565565108491342",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1702545919966871"
+    ],
+    "category": "hotel",
+    "rating": 0,
+    "reviewCount": 0,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:27:47.767Z",
+    "updatedAt": "2026-05-21T15:42:38.047Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1808bf57999e99e78da",
+    "name": "SPICY BOX TRÀ VINH",
+    "description": "Địa chỉ: 414 Võ Nguyên Giáp, Nguyệt Hóa, Vĩnh Long 87000, Vietnam | SĐT: +84 374 191 199 | Website: http://facebook.com/spicyboxvn",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9234011,
+        "lng": 106.32807109999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7250469575647579398&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.9,
+    "reviewCount": 503,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:28:16.299Z",
+    "updatedAt": "2026-05-23T06:08:19.153Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1978bf57999e99e78ec",
+    "name": "Quán Châu Đồng",
+    "description": "Địa chỉ: 147 Đồng Khởi, Khóm 9, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 294 3862 688",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.927937799999999,
+        "lng": 106.342835
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=920414323651538",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=216188980740746",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=187311463628498"
+    ],
+    "category": "restaurant",
+    "rating": 4,
+    "reviewCount": 272,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:28:39.090Z",
+    "updatedAt": "2026-05-21T15:42:55.222Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1a88bf57999e99e78fb",
+    "name": "Quán Lẩu Hakimi Trà Vinh",
+    "description": "Địa chỉ: 45b Phạm Ngũ Lão, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 294 6278 888",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.945735599999999,
+        "lng": 106.3398362
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=605920432180262",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100082869325950",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=643928831712755"
+    ],
+    "category": "restaurant",
+    "rating": 4.5,
+    "reviewCount": 323,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:28:56.661Z",
+    "updatedAt": "2026-05-21T15:43:03.303Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1af8bf57999e99e7901",
+    "name": "Quán Lẩu Gia Đình Niềm Vui Nho Nhỏ",
+    "description": "Địa chỉ: 10 Lê Lợi, Khóm 3, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 902 819 555 | Website: https://www.facebook.com/profile.php?id=100083160677834",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.945224,
+        "lng": 106.34241829999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7350978349507890440&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7386056191509679377&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.8,
+    "reviewCount": 25,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:29:03.892Z",
+    "updatedAt": "2026-05-23T06:08:30.727Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1ba8bf57999e99e790a",
+    "name": "Mì cay Yagami Trà Vinh Ẩm thực lẩu Thái - Nhật - Hàn",
+    "description": "Địa chỉ: W8FX+GMC, Hòa Thuận, Vĩnh Long, Vietnam | SĐT: +84 294 6543 838 | Website: https://yagami.com.vn/",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.923883199999999,
+        "lng": 106.3490614
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1273523508266630",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=750764283875891",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1279199174365730"
+    ],
+    "category": "restaurant",
+    "rating": 4.4,
+    "reviewCount": 524,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:29:14.779Z",
+    "updatedAt": "2026-05-21T15:43:10.829Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1c18bf57999e99e7910",
+    "name": "Mì cay Yagami TP. Trà Vinh 2 Ẩm thực Lẩu Thái - Nhật - Hàn",
+    "description": "Địa chỉ: Vòng Xoay, Võ Văn Kiệt, Nguyệt Hóa, Vĩnh Long, Vietnam | Website: https://yagami.com.vn/",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9310405,
+        "lng": 106.3277643
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=750764283875891",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1087785930173723",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1279199174365730"
+    ],
+    "category": "restaurant",
+    "rating": 4.6,
+    "reviewCount": 331,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:29:21.152Z",
+    "updatedAt": "2026-05-21T15:43:15.448Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1d18bf57999e99e791d",
+    "name": "Bò City Trà Vinh",
+    "description": "Địa chỉ: Đối diện Vincom, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 976 570 747 | Website: https://www.facebook.com/share/19Hv4KUUit/?mibextid=wwXIfr",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9360305,
+        "lng": 106.3349906
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7533581857502383368&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 5,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:29:37.867Z",
+    "updatedAt": "2026-05-23T06:08:38.705Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1d88bf57999e99e7923",
+    "name": "Phở Gà Tam Hoa Trà Vinh",
+    "description": "Địa chỉ: Ngã 4 phố ẩm thực, Khóm 10, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 813 195 678",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9340963,
+        "lng": 106.33590389999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7640319504559459605&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7630069784125689096&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7631853455912537362&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 3,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:29:44.758Z",
+    "updatedAt": "2026-05-23T06:08:41.617Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1e48bf57999e99e792c",
+    "name": "Quán Nhà Lá",
+    "description": "Địa chỉ: D5 QL53, Hòa Thuận, Vĩnh Long, Vietnam | SĐT: +84 901 499 648",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9271335,
+        "lng": 106.34802859999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100054434381759",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100028409967016",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=845453797279092"
+    ],
+    "category": "restaurant",
+    "rating": 4.5,
+    "reviewCount": 82,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:29:56.839Z",
+    "updatedAt": "2026-05-21T15:43:26.871Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab1fb8bf57999e99e793e",
+    "name": "1991's BBQ - Buffet Lẩu Nướng Trà Vinh",
+    "description": "Địa chỉ: W8PM+799, Đường Trần Phú, Nguyệt Hóa, Vĩnh Long, Vietnam | SĐT: +84 327 777 259 | Website: https://www.facebook.com/profile.php?id=100087193480391&mibextid=ZbWKwL",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9357037,
+        "lng": 106.333349
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7299724238464863496&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7362045096860110098&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.1,
+    "reviewCount": 82,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:30:19.462Z",
+    "updatedAt": "2026-05-23T06:08:46.900Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2008bf57999e99e7941",
+    "name": "Quán lẩu mắm Tư Đời",
+    "description": "Địa chỉ: 459 Sơn Thông, Trà Vinh, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9052885,
+        "lng": 106.3218558
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7435286033811492114&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7374718452004703504&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7481116253503917330&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:30:24.869Z",
+    "updatedAt": "2026-05-23T06:08:50.264Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab20b8bf57999e99e794a",
+    "name": "Gà Quay 217 - Trà Vinh",
+    "description": "Địa chỉ: 324 Phan Đình Phùng, Nguyệt Hóa, Vĩnh Long, Vietnam | SĐT: +84 938 858 217",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9256013,
+        "lng": 106.33840359999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100076982885321",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=927371876505567",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=727940273115396"
+    ],
+    "category": "restaurant",
+    "rating": 4.4,
+    "reviewCount": 18,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:30:35.077Z",
+    "updatedAt": "2026-05-21T15:43:35.713Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2388bf57999e99e796d",
+    "name": "83 Võ Nguyên Giáp, phường 8, TP. Trà Vinh, tỉnh Trà Vinh",
+    "description": "Địa chỉ: W896+94R, Khóm 1, Nguyệt Hóa, Vĩnh Long, Vietnam | SĐT: +84 898 360 299",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9184963,
+        "lng": 106.31025819999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7618458956049943826&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7457139401148140808&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:31:20.507Z",
+    "updatedAt": "2026-05-23T06:08:55.540Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab23f8bf57999e99e7973",
+    "name": "Ẩm Thực ALO Dzo 100 Trà Vinh",
+    "description": "Địa chỉ: Đ. Trương Văn Kĩnh/258 Phú Hòa, Long Đức, Vĩnh Long 87000, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.949523,
+        "lng": 106.3235201
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7467780870355553543&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7614453291371662610&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 3.3,
+    "reviewCount": 41,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:31:27.079Z",
+    "updatedAt": "2026-05-23T06:08:58.206Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2488bf57999e99e797a",
+    "name": "Bún Mắm 476",
+    "description": "Địa chỉ: 476A Đ. Nguyễn Đáng, khóm 3, Trà Vinh, Vĩnh Long, Vietnam",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9238032,
+        "lng": 106.33910809999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7190226690813988122&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7611166814600531220&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.3,
+    "reviewCount": 31,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:31:36.858Z",
+    "updatedAt": "2026-05-23T06:09:01.065Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab25e8bf57999e99e7986",
+    "name": "Lẩu Gà Ba Lá Trà Vinh",
+    "description": "Địa chỉ: Nguyệt Hóa, Vĩnh Long, Vietnam | SĐT: +84 772 828 383 | Website: http://ghientravinh.cukcuk.vn/oder-online",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9252089,
+        "lng": 106.3289375
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7442184295436799240&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 3.9,
+    "reviewCount": 31,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:31:58.152Z",
+    "updatedAt": "2026-05-23T06:09:03.430Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2648bf57999e99e798c",
+    "name": "SOOWON BBQ TRA VINH BUFFET LẨU NƯỚNG",
+    "description": "Địa chỉ: W8PM+C9G, Nguyệt Hóa, Vĩnh Long, Vietnam | SĐT: +84 949 458 091",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.935986999999999,
+        "lng": 106.333671
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=150307263224990",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1383984917083170",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064150230848"
+    ],
+    "category": "restaurant",
+    "rating": 3.8,
+    "reviewCount": 155,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:32:04.359Z",
+    "updatedAt": "2026-05-21T15:43:58.783Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2738bf57999e99e799b",
+    "name": "Quán Cơm Ban Mai",
+    "description": "Địa chỉ: 79 Phạm Ngũ Lão, Trà Vinh, Vĩnh Long, Vietnam | Website: https://thongtinthuebao.com/ban-mai-quan-com-ban-mai-3862931",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9350699,
+        "lng": 106.3380538
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7261262381802605826&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.1,
+    "reviewCount": 136,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:32:19.578Z",
+    "updatedAt": "2026-05-23T06:09:09.483Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2768bf57999e99e799e",
+    "name": "Lẩu KimChi 79K LT",
+    "description": "Địa chỉ: Đường D5, Hòa Thuận, Vĩnh Long, Vietnam | SĐT: +84 779 766 557",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9276581,
+        "lng": 106.3480342
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063938359728",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1433943875413544",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1513088274165770"
+    ],
+    "category": "restaurant",
+    "rating": 4.1,
+    "reviewCount": 61,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:32:22.957Z",
+    "updatedAt": "2026-05-21T15:44:08.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab28d8bf57999e99e79b1",
+    "name": "Cơm Cari Dê Hẻm 131 Trà Vinh",
+    "description": "Địa chỉ: 740 Điện Biên Phủ, khóm 6, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 374 860 487",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9316462,
+        "lng": 106.3411613
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7617114618460146964&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7409255431199001874&location=0&aid=1988",
+      "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/owziKCANIcIuXZAnCfwrBIJq0SkLCBnY4EiwAA~tplv-tiktokx-origin.image?dr=9636&x-expires=1774620000&x-signature=I5VH%2FmBrCzEnQ8mAh97ePLAJtiY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=55bbe6a9&idc=useast8"
+    ],
+    "category": "restaurant",
+    "rating": 4.7,
+    "reviewCount": 7,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:32:45.218Z",
+    "updatedAt": "2026-05-23T06:09:15.361Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2908bf57999e99e79b4",
+    "name": "Sun Coffee Trà Vinh",
+    "description": "Địa chỉ: 1 Phan Đình Phùng, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 939 565 792",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.9354886,
+        "lng": 106.3404317
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7147702378400075035&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7276827811468381441&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "rating": 4.1,
+    "reviewCount": 63,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:32:48.788Z",
+    "updatedAt": "2026-05-23T06:09:18.029Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab2a18bf57999e99e79c0",
+    "name": "Trà Sữa Anh Nấu Trà Vinh",
+    "description": "Địa chỉ: 28 Huỳnh Thúc Kháng, Trà Vinh, Vĩnh Long, Vietnam | SĐT: +84 907 206 687",
+    "location": {
+      "city": "Trà Vinh",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 9.944364499999999,
+        "lng": 106.3403422
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1510560847350871&get_thumbnail=1",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=419009520891114",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100083462075986"
+    ],
+    "category": "restaurant",
+    "rating": 4.8,
+    "reviewCount": 17,
+    "amenities": [],
+    "bestTimeToVisit": [],
+    "activities": [],
+    "createdAt": "2026-05-18T06:33:05.602Z",
+    "updatedAt": "2026-05-21T15:44:23.944Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0ab844b8d0e01286177cb2",
+    "name": "Đình Long Thanh",
+    "description": "Đình Long Thanh tại Vĩnh Long - Điểm thu hút khách du lịch",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2384674,
+        "lng": 105.98996489999999
+      }
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7e/%C4%90%C3%ACnh_T%C3%A2n_Thanh.jpg",
+      "https://mia.vn/media/uploads/blog-du-lich/dinh-long-thanh-kien-truc-co-hon-tram-nam-tuoi-tai-vinh-long-4-1662197444.jpg",
+      "https://dulichviet.com.vn/images/bandidau/du-lich-dinh-long-thanh-vinh-long.jpeg"
+    ],
+    "category": "attraction",
+    "priceRange": "budget",
+    "rating": 3.5,
+    "reviewCount": 27,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T06:57:08.457Z",
+    "updatedAt": "2026-05-23T06:09:23.861Z"
+  },
+  {
+    "_id": "6a0ab89eb8d0e01286177ce0",
+    "name": "Chùa Vạn Linh",
+    "description": "Chùa Vạn Linh tại Vĩnh Long - Chùa phật giáo",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2368322,
+        "lng": 105.9035224
+      }
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Ch%C3%B9a_V%E1%BA%A1n_Linh_tr%C3%AAn_n%C3%BAi_C%E1%BA%A5m.jpg",
+      "https://thamhiemmekong.com/wp-content/uploads/2019/11/chuavanlinh.jpg",
+      "https://thvl.vn/wp-content/uploads/2011/07/ditichtinh.jpg"
+    ],
+    "category": "historical",
+    "priceRange": "budget",
+    "rating": 4.4,
+    "reviewCount": 14,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T06:58:38.942Z",
+    "updatedAt": "2026-05-23T06:09:25.949Z"
+  },
+  {
+    "_id": "6a0ab89eb8d0e01286177cd3",
+    "name": "Chùa Tiên Châu",
+    "description": "Chùa Tiên Châu tại Vĩnh Long - Chùa phật giáo",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2629972,
+        "lng": 105.96911109999999
+      }
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/C%E1%BB%95ng_ch%C3%B9a_Ti%C3%AAn_Ch%C3%A2u.jpg",
+      "https://baocantho.com.vn/image/fckeditor/upload/2023/20231217/images/8-1.webp",
+      "https://mia.vn/media/uploads/blog-du-lich/tham-quan-chua-tien-chau-o-vinh-long-co-tuoi-doi-lau-nhat-1662303349.jpg"
+    ],
+    "category": "historical",
+    "priceRange": "budget",
+    "rating": 4.6,
+    "reviewCount": 136,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T06:58:38.940Z",
+    "updatedAt": "2026-05-23T06:09:28.558Z"
+  },
+  {
+    "_id": "6a0ab8bbb8d0e01286177cea",
+    "name": "Cái Vồn",
+    "description": "Cái Vồn tại Vĩnh Long - Điểm đến du lịch",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.066562399999999,
+        "lng": 105.8084823
+      }
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Nh%C3%A0_ven_s%C3%B4ng_%E1%BB%9F_C%C3%A1i_V%E1%BB%93n.jpg",
+      "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NHBT/14032025/phuong-cai-von-thi-xa-binh-minh-cu-tinh-vinh-long-sap-nhap-vao-dau-phuong-cai-von-doi-thanh-gi.jpg",
+      "https://i.ytimg.com/vi/4VWcI79BMcA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCG8-L3MEUbtTXdtqTv8plms3eeww"
+    ],
+    "category": "countryside",
+    "priceRange": "budget",
+    "rating": 0,
+    "reviewCount": 0,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T06:59:07.091Z",
+    "updatedAt": "2026-05-23T06:09:31.964Z"
+  },
+  {
+    "_id": "6a0ab940b8d0e01286177d2b",
+    "name": "Nhà hàng Đức Phát Hoàng Gia",
+    "description": "Nhà hàng Đức Phát Hoàng Gia tại Vĩnh Long - Nhà hàng",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2339874,
+        "lng": 105.98549179999999
+      }
+    },
+    "images": [
+      "https://beautywood.vn/public/upload/images/nha-hang-ham-ruou-vinh-long-duc-phat-hoang-gia-2.jpg",
+      "https://beautywood.vn/public/upload/images/nha-hang-ham-ruou-vinh-long-duc-phat-hoang-gia-5.jpg"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.2,
+    "reviewCount": 923,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "Đồ_ăn_mang_đi",
+      "giao_hàng_gián_tiếp"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Nhà hàng",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:01:20.428Z",
+    "updatedAt": "2026-05-23T06:09:35.208Z"
+  },
+  {
+    "_id": "6a0ab940b8d0e01286177d36",
+    "name": "UMI SUSHI Vĩnh Long",
+    "description": "UMI SUSHI Vĩnh Long tại Vĩnh Long - Nhà hàng Nhật Bản",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.246723099999999,
+        "lng": 105.9779397
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7402573793241206032&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7399323627264478480&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.3,
+    "reviewCount": 51,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "Đồ_ăn_mang_đi",
+      "giao_hàng"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Nhà hàng Nhật Bản",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:01:20.428Z",
+    "updatedAt": "2026-05-23T06:09:38.396Z"
+  },
+  {
+    "_id": "6a0ab977b8d0e01286177d52",
+    "name": "Quán Thuận Phúc - Chi nhánh Vĩnh Long",
+    "description": "Quán Thuận Phúc - Chi nhánh Vĩnh Long tại Vĩnh Long - Nhà hàng",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.242991499999999,
+        "lng": 105.9794323
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122172707294539766",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61566192996784",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122195404784539766"
+    ],
+    "category": "restaurant",
+    "priceRange": "mid-range",
+    "rating": 4.8,
+    "reviewCount": 137,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "Đồ_ăn_mang_đi",
+      "giao_hàng_gián_tiếp"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Nhà hàng",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:02:15.965Z",
+    "updatedAt": "2026-05-21T15:45:19.589Z"
+  },
+  {
+    "_id": "6a0ab9bcb8d0e01286177d73",
+    "name": "64 Daklao Café & Roastery Vĩnh Long",
+    "description": "64 Daklao Café & Roastery Vĩnh Long tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2449254,
+        "lng": 105.96827619999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7402834218507717896&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.4,
+    "reviewCount": 357,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "mua_hàng_ngay_trên_xe",
+      "giao_hàng_gián_tiếp"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:03:24.694Z",
+    "updatedAt": "2026-05-23T06:09:43.382Z"
+  },
+  {
+    "_id": "6a0ab9bcb8d0e01286177d78",
+    "name": "NHÀ GA COFFEE",
+    "description": "NHÀ GA COFFEE tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2436966,
+        "lng": 105.9740412
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1112396990888477",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063545594811",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1809916469725952&get_thumbnail=1"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.2,
+    "reviewCount": 45,
+    "amenities": [
+      "Ăn_tại_chỗ"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:03:24.695Z",
+    "updatedAt": "2026-05-21T15:45:29.939Z"
+  },
+  {
+    "_id": "6a0ab9bcb8d0e01286177d76",
+    "name": "Sky cà phê Vĩnh Long",
+    "description": "Sky cà phê Vĩnh Long tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2379721,
+        "lng": 105.9826391
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100084709278204",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100054602342470",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=240082902158684"
+    ],
+    "category": "restaurant",
+    "priceRange": "mid-range",
+    "rating": 4.7,
+    "reviewCount": 20,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "mua_hàng_ngay_trên_xe",
+      "giao_hàng_gián_tiếp"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:03:24.695Z",
+    "updatedAt": "2026-05-21T15:45:40.256Z"
+  },
+  {
+    "_id": "6a0ab9bcb8d0e01286177d7b",
+    "name": "Café Lê Vy 2",
+    "description": "Café Lê Vy 2 tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2504566,
+        "lng": 105.95671019999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7365804192365022482&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7480474838772075783&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7363275444298288400&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.2,
+    "reviewCount": 185,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "Đồ_ăn_mang_đi",
+      "giao_hàng_gián_tiếp"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:03:24.695Z",
+    "updatedAt": "2026-05-23T06:09:53.048Z"
+  },
+  {
+    "_id": "6a0ab9bcb8d0e01286177d80",
+    "name": "The Gỗ Coffee & Tea",
+    "description": "The Gỗ Coffee & Tea tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2378126,
+        "lng": 105.9727176
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7541224441708088594&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "priceRange": "mid-range",
+    "rating": 4.5,
+    "reviewCount": 63,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "Đồ_ăn_mang_đi"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:03:24.695Z",
+    "updatedAt": "2026-05-23T06:09:56.247Z"
+  },
+  {
+    "_id": "6a0ab9bcb8d0e01286177d79",
+    "name": "Café Lê Vy",
+    "description": "Café Lê Vy tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2528551,
+        "lng": 105.9526609
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7365804192365022482&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7480474838772075783&location=0&aid=1988"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.4,
+    "reviewCount": 159,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "nhận_hàng_ở_lề_đường",
+      "giao_hàng"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:03:24.695Z",
+    "updatedAt": "2026-05-23T06:09:58.549Z"
+  },
+  {
+    "_id": "6a0aba13b8d0e01286177d9d",
+    "name": "PINKY - Trà sữa & Ăn vặt",
+    "description": "PINKY - Trà sữa & Ăn vặt tại Vĩnh Long - Nhà hàng",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.178659099999999,
+        "lng": 106.1162564
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=379208014443356",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=881241790373245",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100086353111114"
+    ],
+    "category": "restaurant",
+    "priceRange": "mid-range",
+    "rating": 4.8,
+    "reviewCount": 12,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "Đồ_ăn_mang_đi",
+      "giao_hàng"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Nhà hàng",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:04:51.225Z",
+    "updatedAt": "2026-05-21T15:46:00.491Z"
+  },
+  {
+    "_id": "6a0aba13b8d0e01286177d97",
+    "name": "Ăn Vặt Cô Diêng",
+    "description": "Ăn Vặt Cô Diêng tại Vĩnh Long - Khu ăn uống",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2368373,
+        "lng": 105.97723549999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=451226174463974",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100087297847271",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=678579345061988"
+    ],
+    "category": "restaurant",
+    "priceRange": "budget",
+    "rating": 4.1,
+    "reviewCount": 35,
+    "amenities": [
+      "Ăn_tại_chỗ",
+      "mua_hàng_ngay_trên_xe",
+      "giao_hàng"
+    ],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Khu ăn uống",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:04:51.225Z",
+    "updatedAt": "2026-05-21T15:46:07.481Z"
+  },
+  {
+    "_id": "6a0aba13b8d0e01286177da3",
+    "name": "Ăn Vặt Nhà Moon",
+    "description": "Ăn Vặt Nhà Moon tại Vĩnh Long - Nhà hàng ăn nhanh",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.1154875,
+        "lng": 105.9008906
+      }
+    },
+    "images": [
+      "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oMlCPAwIjQxAQoOehFIAf2GRAn8LIDDbEAf0vZ~tplv-photomode-video-share-card:630:630:20.jpeg?dr=9616&refresh_token=829a2d05&x-expires=1810886400&x-signature=%2BQQ48o954E5s1D6O8XHAMDcBFx4%3D&t=4d5b0474&ps=13740610&shp=55bbe6a9&shcp=f07906a3&idc=useast8&ftpl=1"
+    ],
+    "category": "restaurant",
+    "priceRange": "mid-range",
+    "rating": 5,
+    "reviewCount": 1,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Nhà hàng ăn nhanh",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:04:51.225Z",
+    "updatedAt": "2026-05-23T06:10:09.799Z"
+  },
+  {
+    "_id": "6a0aba13b8d0e01286177d99",
+    "name": "Ăn vặt Út Ngân",
+    "description": "Ăn vặt Út Ngân tại Vĩnh Long - Quán cà phê",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2447848,
+        "lng": 105.97292949999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61567813036260",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122106052868593767",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122182955336593767"
+    ],
+    "category": "restaurant",
+    "priceRange": "mid-range",
+    "rating": 5,
+    "reviewCount": 13,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "cuisine": {
+      "name": "Quán cà phê",
+      "description": "Đặc sản và món ăn địa phương"
+    },
+    "__v": 0,
+    "createdAt": "2026-05-18T07:04:51.225Z",
+    "updatedAt": "2026-05-21T15:46:20.844Z"
+  },
+  {
+    "_id": "6a0abab3b8d0e01286177dec",
+    "name": "Nhà Nghỉ Ánh Minh",
+    "description": "Nhà Nghỉ Ánh Minh tại Vĩnh Long - Nhà nghỉ trượt tuyết",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.239887399999999,
+        "lng": 105.9885881
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=156678656749513",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100072221371145",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1988760581167875"
+    ],
+    "category": "hotel",
+    "priceRange": "mid-range",
+    "rating": 4.2,
+    "reviewCount": 38,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T07:07:31.713Z",
+    "updatedAt": "2026-05-21T15:46:34.548Z"
+  },
+  {
+    "_id": "6a0abab3b8d0e01286177deb",
+    "name": "Nhà nghỉ Huy Thảo",
+    "description": "Nhà nghỉ Huy Thảo tại Vĩnh Long - Nhà trọ",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2333053,
+        "lng": 105.97363329999999
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100069131354648",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=101454414581266",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064009089664"
+    ],
+    "category": "hotel",
+    "priceRange": "mid-range",
+    "rating": 4.8,
+    "reviewCount": 11,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T07:07:31.713Z",
+    "updatedAt": "2026-05-21T15:46:37.785Z"
+  },
+  {
+    "_id": "6a0abab3b8d0e01286177df0",
+    "name": "Nhà Nghỉ Tú Sự",
+    "description": "Nhà Nghỉ Tú Sự tại Vĩnh Long - Khách sạn",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2607506,
+        "lng": 105.9228729
+      }
+    },
+    "images": [
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=855629290740928",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100088815938326",
+      "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=745863625050829"
+    ],
+    "category": "hotel",
+    "priceRange": "mid-range",
+    "rating": 4.3,
+    "reviewCount": 34,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T07:07:31.714Z",
+    "updatedAt": "2026-05-21T15:46:40.514Z"
+  },
+  {
+    "_id": "6a0abab3b8d0e01286177df4",
+    "name": "Nhà nghỉ Đăng Khoa",
+    "description": "Nhà nghỉ Đăng Khoa tại Vĩnh Long - Nhà trọ",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2490455,
+        "lng": 105.9559867
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7585925516914478343&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7256337363138317574&location=0&aid=1988"
+    ],
+    "category": "hotel",
+    "priceRange": "mid-range",
+    "rating": 4,
+    "reviewCount": 39,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T07:07:31.714Z",
+    "updatedAt": "2026-05-23T06:10:27.911Z"
+  },
+  {
+    "_id": "6a0abab3b8d0e01286177df1",
+    "name": "Nhà Trọ Lê Thuận - Long Hồ , Vĩnh Long",
+    "description": "Nhà Trọ Lê Thuận - Long Hồ , Vĩnh Long tại Vĩnh Long - Nhà trọ",
+    "location": {
+      "city": "Vĩnh Long",
+      "country": "Việt Nam",
+      "coordinates": {
+        "lat": 10.2159616,
+        "lng": 105.99264199999999
+      }
+    },
+    "images": [
+      "https://www.tiktok.com/api/img/?itemId=7535009631698062600&location=0&aid=1988",
+      "https://www.tiktok.com/api/img/?itemId=7592276947829394696&location=0&aid=1988"
+    ],
+    "category": "hotel",
+    "priceRange": "mid-range",
+    "rating": 4.7,
+    "reviewCount": 78,
+    "amenities": [],
+    "bestTimeToVisit": [
+      "Cả năm"
+    ],
+    "activities": [],
+    "__v": 0,
+    "createdAt": "2026-05-18T07:07:31.714Z",
+    "updatedAt": "2026-05-23T06:10:31.915Z"
+  }
+]

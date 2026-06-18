@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net">
+<diagram name="UseCase" id="uc1">
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="t1" value="SO DO USE CASE - TRAVELAI" style="text;html=1;align=center;fontSize=18;fontStyle=1" vertex="1" parent="1"><mxGeometry x="450" y="10" width="300" height="30" as="geometry"/></mxCell>
+<mxCell id="sys" value="He thong TravelAI" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="200" y="50" width="950" height="900" as="geometry"/></mxCell>
+
+<!-- ACTORS -->
+<mxCell id="g1" value="Khach" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="50" y="150" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="u1" value="User" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="50" y="420" width="40" height="80" as="geometry"/></mxCell>
+<mxCell id="a1" value="Admin" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="50" y="720" width="40" height="80" as="geometry"/></mxCell>
+
+<!-- INHERITANCE -->
+<mxCell id="i1" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="u1" target="g1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="i2" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="a1" target="u1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- KHACH USE CASES -->
+<mxCell id="uc01" value="Dang ky" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="240" y="70" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc02" value="Dang nhap" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="370" y="70" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc03" value="Xem diem den" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="240" y="130" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc04" value="Tim kiem" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="380" y="130" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc05" value="Loc theo danh muc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="510" y="70" width="130" height="40" as="geometry"/></mxCell>
+<mxCell id="uc06" value="Xem chi tiet" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="510" y="130" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc07" value="Xem ban do" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="640" y="130" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc08" value="Xem thoi tiet" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="770" y="130" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc09" value="Xem am thuc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="900" y="130" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc10" value="Chat voi AI" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="240" y="190" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc11" value="Nhan goi y" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="370" y="190" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc12" value="Xem danh gia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="500" y="190" width="110" height="40" as="geometry"/></mxCell>
+
+<!-- USER USE CASES -->
+<mxCell id="uc13" value="Cap nhat profile" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="240" y="300" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc14" value="Cap nhat so thich" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="380" y="300" width="120" height="40" as="geometry"/></mxCell>
+<mxCell id="uc15" value="Dang xuat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="530" y="300" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc16" value="Luu diem den" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="240" y="360" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc17" value="Xem da luu" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="380" y="360" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc18" value="Tao lich trinh" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="510" y="360" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc19" value="Quan ly lich trinh" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="650" y="360" width="120" height="40" as="geometry"/></mxCell>
+<mxCell id="uc20" value="Them vao lich trinh" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="800" y="360" width="130" height="40" as="geometry"/></mxCell>
+<mxCell id="uc21" value="Viet danh gia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="240" y="420" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc22" value="Chat co lich su" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="380" y="420" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc23" value="Xem lich su chat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="520" y="420" width="120" height="40" as="geometry"/></mxCell>
+<mxCell id="uc24" value="Xoa lich su chat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="670" y="420" width="120" height="40" as="geometry"/></mxCell>
+
+<!-- ADMIN USE CASES -->
+<mxCell id="uc25" value="Xem thong ke" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="240" y="560" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc26" value="Quan ly nguoi dung" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="240" y="620" width="130" height="40" as="geometry"/></mxCell>
+<mxCell id="uc27" value="Thay doi role" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="420" y="620" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc28" value="Xoa user" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="550" y="620" width="90" height="40" as="geometry"/></mxCell>
+<mxCell id="uc29" value="Quan ly diem den" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="240" y="700" width="130" height="40" as="geometry"/></mxCell>
+<mxCell id="uc30" value="Them diem den" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="420" y="700" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc31" value="Sua diem den" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="560" y="700" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc32" value="Xoa diem den" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="690" y="700" width="100" height="40" as="geometry"/></mxCell>
+<mxCell id="uc33" value="Quan ly danh gia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="240" y="780" width="120" height="40" as="geometry"/></mxCell>
+<mxCell id="uc34" value="Duyet danh gia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="410" y="780" width="110" height="40" as="geometry"/></mxCell>
+<mxCell id="uc35" value="Xoa danh gia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="550" y="780" width="100" height="40" as="geometry"/></mxCell>
+
+<!-- KHACH CONNECTIONS -->
+<mxCell id="c01" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc01"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c02" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc02"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c03" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc03"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c04" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc04"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c05" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc05"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c06" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc06"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c07" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc07"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c08" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc08"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c09" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc09"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c10" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc10"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c11" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc11"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c12" style="endArrow=none;html=1;" edge="1" parent="1" source="g1" target="uc12"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- USER CONNECTIONS -->
+<mxCell id="c13" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc13"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c14" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc14"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c15" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc15"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c16" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc16"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c17" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc17"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c18" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc18"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c19" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc19"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c20" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc20"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c21" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc21"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c22" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc22"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c23" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc23"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c24" style="endArrow=none;html=1;" edge="1" parent="1" source="u1" target="uc24"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- ADMIN CONNECTIONS -->
+<mxCell id="c25" style="endArrow=none;html=1;" edge="1" parent="1" source="a1" target="uc25"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c26" style="endArrow=none;html=1;" edge="1" parent="1" source="a1" target="uc26"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c29" style="endArrow=none;html=1;" edge="1" parent="1" source="a1" target="uc29"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="c33" style="endArrow=none;html=1;" edge="1" parent="1" source="a1" target="uc33"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- INCLUDE RELATIONSHIPS -->
+<mxCell id="inc1" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc26" target="uc27"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc2" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc26" target="uc28"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc3" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc29" target="uc30"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc4" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc29" target="uc31"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc5" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc29" target="uc32"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc6" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc33" target="uc34"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc7" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc33" target="uc35"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- USER INCLUDE RELATIONSHIPS -->
+<mxCell id="inc8" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc13" target="uc14"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc9" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc16" target="uc17"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc10" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc18" target="uc19"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc11" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc18" target="uc20"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc12" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc22" target="uc23"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc13" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc22" target="uc24"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- KHACH INCLUDE RELATIONSHIPS -->
+<mxCell id="inc14" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc03" target="uc04"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc15" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc03" target="uc05"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc16" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc03" target="uc06"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc17" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc06" target="uc07"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc18" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc06" target="uc08"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc19" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc06" target="uc09"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc20" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc06" target="uc12"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc21" value="include" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="uc10" target="uc11"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- LEGEND -->
+<mxCell id="leg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="900" y="750" width="160" height="140" as="geometry"/></mxCell>
+<mxCell id="leg1" value="CHU THICH" style="text;html=1;align=center;fontStyle=1" vertex="1" parent="1"><mxGeometry x="930" y="755" width="100" height="20" as="geometry"/></mxCell>
+<mxCell id="leg2" value="" style="ellipse;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="910" y="780" width="25" height="15" as="geometry"/></mxCell>
+<mxCell id="leg2t" value="Khach" style="text;html=1;align=left" vertex="1" parent="1"><mxGeometry x="945" y="775" width="80" height="20" as="geometry"/></mxCell>
+<mxCell id="leg3" value="" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="910" y="805" width="25" height="15" as="geometry"/></mxCell>
+<mxCell id="leg3t" value="User" style="text;html=1;align=left" vertex="1" parent="1"><mxGeometry x="945" y="800" width="80" height="20" as="geometry"/></mxCell>
+<mxCell id="leg4" value="" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="910" y="830" width="25" height="15" as="geometry"/></mxCell>
+<mxCell id="leg4t" value="Admin" style="text;html=1;align=left" vertex="1" parent="1"><mxGeometry x="945" y="825" width="80" height="20" as="geometry"/></mxCell>
+<mxCell id="leg5t" value="--- include" style="text;html=1;align=left" vertex="1" parent="1"><mxGeometry x="910" y="850" width="100" height="20" as="geometry"/></mxCell>
+<mxCell id="leg6t" value="─ association" style="text;html=1;align=left" vertex="1" parent="1"><mxGeometry x="910" y="870" width="100" height="20" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

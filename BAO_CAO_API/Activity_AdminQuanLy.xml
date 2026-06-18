@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+<diagram name="Admin quan ly" id="act5">
+<mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="t5" value="ACTIVITY DIAGRAM: ADMIN QUAN LY DIEM DEN" style="text;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="200" y="10" width="400" height="30" as="geometry"/></mxCell>
+
+<mxCell id="start5" value="" style="ellipse;fillColor=#000000;" vertex="1" parent="1"><mxGeometry x="385" y="50" width="30" height="30" as="geometry"/></mxCell>
+
+<mxCell id="j1" value="Dang nhap Admin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="320" y="100" width="160" height="40" as="geometry"/></mxCell>
+<mxCell id="j2" value="Vao trang Quan ly diem den" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="300" y="160" width="200" height="40" as="geometry"/></mxCell>
+<mxCell id="j3" value="Hien thi danh sach" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="320" y="220" width="160" height="40" as="geometry"/></mxCell>
+
+<mxCell id="d5" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="375" y="280" width="50" height="50" as="geometry"/></mxCell>
+
+<mxCell id="j4" value="Them moi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="180" y="290" width="100" height="30" as="geometry"/></mxCell>
+<mxCell id="j5" value="Sua" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="350" y="360" width="100" height="30" as="geometry"/></mxCell>
+<mxCell id="j6" value="Xoa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="520" y="290" width="100" height="30" as="geometry"/></mxCell>
+
+<mxCell id="j7" value="Cap nhat database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="320" y="420" width="160" height="40" as="geometry"/></mxCell>
+
+<mxCell id="end5" value="" style="ellipse;fillColor=#000000;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="385" y="490" width="30" height="30" as="geometry"/></mxCell>
+
+<mxCell id="k1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="start5" target="j1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j1" target="j2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j2" target="j3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j3" target="d5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k5" value="Them" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="d5" target="j4"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k6" value="Sua" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="d5" target="j5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k7" value="Xoa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="d5" target="j6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j4" target="j7"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="230" y="440"/></Array></mxGeometry></mxCell>
+<mxCell id="k9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j5" target="j7"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="k10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j6" target="j7"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="570" y="440"/></Array></mxGeometry></mxCell>
+<mxCell id="k11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="j7" target="end5"><mxGeometry relative="1" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

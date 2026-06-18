@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net">
+<diagram name="Dang nhap" id="act1">
+<mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="t1" value="ACTIVITY DIAGRAM: DANG NHAP" style="text;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="250" y="10" width="300" height="30" as="geometry"/></mxCell>
+
+<mxCell id="start1" value="" style="ellipse;fillColor=#000000;" vertex="1" parent="1"><mxGeometry x="385" y="50" width="30" height="30" as="geometry"/></mxCell>
+
+<mxCell id="a1" value="Truy cap trang dang nhap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="320" y="100" width="160" height="40" as="geometry"/></mxCell>
+<mxCell id="a2" value="Nhap email va mat khau" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="320" y="160" width="160" height="40" as="geometry"/></mxCell>
+<mxCell id="a3" value="Nhan nut Dang nhap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="320" y="220" width="160" height="40" as="geometry"/></mxCell>
+<mxCell id="a4" value="He thong xac thuc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="320" y="280" width="160" height="40" as="geometry"/></mxCell>
+
+<mxCell id="d1" value="Hop le?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="360" y="340" width="80" height="60" as="geometry"/></mxCell>
+
+<mxCell id="a5" value="Hien thi loi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="180" y="355" width="120" height="30" as="geometry"/></mxCell>
+<mxCell id="a6" value="Chuyen den trang chu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="500" y="355" width="140" height="30" as="geometry"/></mxCell>
+
+<mxCell id="end1" value="" style="ellipse;fillColor=#000000;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="555" y="430" width="30" height="30" as="geometry"/></mxCell>
+
+<mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="start1" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="a4" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e6" value="Sai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="d1" target="a5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e7" value="Dung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="d1" target="a6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="a5" target="a2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="240" y="420"/><mxPoint x="140" y="420"/><mxPoint x="140" y="180"/><mxPoint x="320" y="180"/></Array></mxGeometry></mxCell>
+<mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="a6" target="end1"><mxGeometry relative="1" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

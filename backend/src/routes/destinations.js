@@ -17,6 +17,34 @@ router.get('/names', async (req, res) => {
   }
 });
 
+// ── Lightweight: Dữ liệu tối giản cho bản đồ /explore ────────────────────────
+// Chỉ trả về field bản đồ cần (toạ độ, tên, category, rating, ảnh đầu) + .lean()
+// để tránh hydrate 5933 document. Cùng gzip → payload từ ~4.6MB còn vài trăm KB.
+// Cache in-memory 5 phút: địa điểm gần như không đổi → mọi request sau trả tức thì,
+// né round-trip tới Atlas (cloud) vốn tốn ~2-3s. Cache reset khi admin sửa địa điểm.
+let mapCache = { data: null, ts: 0 };
+const MAP_CACHE_TTL = 5 * 60 * 1000;
+const invalidateMapCache = () => { mapCache = { data: null, ts: 0 }; };
+
+router.get('/map', async (req, res) => {
+  try {
+    if (!mapCache.data || Date.now() - mapCache.ts > MAP_CACHE_TTL) {
+      mapCache = {
+        data: await Destination.find(
+          { 'location.coordinates.lat': { $ne: null }, 'location.coordinates.lng': { $ne: null } },
+          { name: 1, category: 1, rating: 1, reviewCount: 1, 'location.city': 1, 'location.coordinates': 1, images: { $slice: 3 } }
+        ).lean(),
+        ts: Date.now(),
+      };
+    }
+    // Cho phép browser cache 5 phút (dữ liệu địa điểm thay đổi rất ít)
+    res.set('Cache-Control', 'public, max-age=300');
+    res.json({ success: true, data: mapCache.data, total: mapCache.data.length });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
+
 // ── Trích "điểm đến được nhắc đến" trong 1 đoạn text AI (cho card chat) ───────
 // Khớp không phân biệt hoa/dấu + lõi tên + lọc theo tỉnh ngữ cảnh (xem aiService).
 router.post('/from-text', async (req, res) => {
@@ -226,6 +254,7 @@ router.get('/:id', async (req, res) => {
 router.post('/', protect, admin, async (req, res) => {
   try {
     const destination = await Destination.create(req.body);
+    invalidateMapCache();
     res.status(201).json({ success: true, data: destination });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
@@ -259,6 +288,7 @@ router.put('/:id', protect, admin, async (req, res) => {
       { new: true, runValidators: true }
     );
     if (destination) {
+      invalidateMapCache();
       res.json({ success: true, data: destination });
     } else {
       res.status(404).json({ success: false, message: 'Destination not found' });
@@ -273,6 +303,7 @@ router.delete('/:id', protect, admin, async (req, res) => {
   try {
     const destination = await Destination.findByIdAndDelete(req.params.id);
     if (destination) {
+      invalidateMapCache();
       res.json({ success: true, message: 'Destination deleted' });
     } else {
       res.status(404).json({ success: false, message: 'Destination not found' });

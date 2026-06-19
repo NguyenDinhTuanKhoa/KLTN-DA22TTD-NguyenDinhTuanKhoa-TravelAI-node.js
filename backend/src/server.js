@@ -1,6 +1,7 @@
 const express = require('express');
 const http = require('http');
 const cors = require('cors');
+const compression = require('compression');
 const dotenv = require('dotenv');
 const swaggerUi = require('swagger-ui-express');
 const connectDB = require('./config/db');
@@ -39,6 +40,9 @@ const corsOptions = {
 };
 
 // Middleware
+// Nén gzip toàn bộ response (JSON nén được ~85-90%). Payload lớn như
+// /destinations (4.6MB) giảm còn vài trăm KB → tăng tốc tải bản đồ rõ rệt.
+app.use(compression());
 app.use(cors(corsOptions));
 app.use(express.json());
 

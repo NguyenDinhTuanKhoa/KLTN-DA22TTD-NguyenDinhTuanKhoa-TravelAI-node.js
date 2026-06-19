@@ -251,17 +251,17 @@ export default function ItineraryPage() {
         <div className="max-w-6xl mx-auto px-4">
 
           {/* ── Hero Header ── */}
-          <div className="relative mb-6 bg-gradient-to-r from-sky-600 via-blue-600 to-violet-600 rounded-3xl p-6 md:p-8 overflow-hidden shadow-lg">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/4" />
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/4" />
+          <div className="relative mb-6 bg-transparent border-2 border-sky-500 rounded-3xl p-6 md:p-8 overflow-hidden shadow-sm">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-sky-500/5 rounded-full -translate-y-1/2 translate-x-1/4" />
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-sky-500/5 rounded-full translate-y-1/2 -translate-x-1/4" />
             
             <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
               <div>
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-3xl">🗺️</span>
-                  <h1 className="text-2xl md:text-3xl font-bold text-white">Lịch Trình Của Tôi</h1>
+                  <h1 className="text-2xl md:text-3xl font-bold text-sky-600">Lịch Trình Của Tôi</h1>
                 </div>
-                <p className="text-white/80 text-base max-w-xl">
+                <p className="text-gray-600 text-base max-w-xl">
                   Quản lý và theo dõi chuyến hành trình du lịch của bạn.
                 </p>
               </div>
@@ -269,14 +269,14 @@ export default function ItineraryPage() {
               {/* Stats Bar */}
               <div className="flex gap-3 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
                 {[
-                  { label: 'Tổng', value: itineraries.length, color: 'text-white' },
-                  { label: 'Đang đi', value: itineraries.filter((i) => i.status === 'ongoing').length, color: 'text-emerald-300' },
-                  { label: 'Hoàn thành', value: itineraries.filter((i) => i.status === 'completed').length, color: 'text-amber-300' },
-                  { label: 'Kế hoạch', value: itineraries.filter((i) => i.status === 'planning').length, color: 'text-sky-200' },
+                  { label: 'Tổng', value: itineraries.length, color: 'text-sky-600' },
+                  { label: 'Đang đi', value: itineraries.filter((i) => i.status === 'ongoing').length, color: 'text-emerald-500' },
+                  { label: 'Hoàn thành', value: itineraries.filter((i) => i.status === 'completed').length, color: 'text-amber-500' },
+                  { label: 'Kế hoạch', value: itineraries.filter((i) => i.status === 'planning').length, color: 'text-sky-500' },
                 ].map((s) => (
-                  <div key={s.label} className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20 text-center shrink-0 min-w-[80px]">
+                  <div key={s.label} className="bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2 border border-sky-200 text-center shrink-0 min-w-[80px]">
                     <p className={`text-xl font-bold leading-tight ${s.color}`}>{s.value}</p>
-                    <p className="text-white/70 text-xs mt-1">{s.label}</p>
+                    <p className="text-gray-500 text-xs mt-1">{s.label}</p>
                   </div>
                 ))}
               </div>

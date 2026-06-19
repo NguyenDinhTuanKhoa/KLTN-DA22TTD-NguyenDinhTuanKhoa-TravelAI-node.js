@@ -62,7 +62,7 @@ export default function ExplorePage() {
 
   const fetchDestinations = async () => {
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/destinations?limit=10000&t=${Date.now()}`);
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/destinations/map`);
       const data = await res.json();
       if (data.success) {
         setDestinations(data.data);

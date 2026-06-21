@@ -15,7 +15,8 @@ export default function GlobalRobot() {
     pathname?.startsWith('/admin') ||
     pathname?.startsWith('/login') ||
     pathname?.startsWith('/register') ||
-    pathname?.startsWith('/explore')
+    pathname?.startsWith('/explore') ||
+    pathname?.startsWith('/navigate')
   ) {
     return null;
   }

@@ -175,9 +175,14 @@ export default function Navbar() {
                 { name: '💬 Nhắn tin', href: '/chat' },
               ] : []),
             ].map((item) => (
-              <Link key={item.name} href={item.href} className={`block py-3 font-medium hover:text-sky-500 ${
-                pathname === item.href ? 'text-sky-500' : 'text-gray-700'
-              }`}>
+              <Link 
+                key={item.name} 
+                href={item.href} 
+                onClick={() => setMenuOpen(false)}
+                className={`block py-3 font-medium hover:text-sky-500 ${
+                  pathname === item.href ? 'text-sky-500' : 'text-gray-700'
+                }`}
+              >
                 {item.name}
               </Link>
             ))}
@@ -198,16 +203,30 @@ export default function Navbar() {
                     )}
                     <span className="font-medium text-gray-700">{user.name || 'User'}</span>
                   </div>
-                  <button onClick={logout} className="px-4 py-2 text-red-500 font-medium">
+                  <button 
+                    onClick={() => {
+                      logout();
+                      setMenuOpen(false);
+                    }} 
+                    className="px-4 py-2 text-red-500 font-medium"
+                  >
                     Đăng xuất
                   </button>
                 </>
               ) : (
                 <>
-                  <Link href="/login" className="flex-1 py-2.5 text-center text-gray-700 font-medium">
+                  <Link 
+                    href="/login" 
+                    onClick={() => setMenuOpen(false)}
+                    className="flex-1 py-2.5 text-center text-gray-700 font-medium"
+                  >
                     Đăng Nhập
                   </Link>
-                  <Link href="/register" className="flex-1 py-2.5 text-center bg-gradient-to-r from-sky-500 to-violet-500 text-white font-semibold rounded-full">
+                  <Link 
+                    href="/register" 
+                    onClick={() => setMenuOpen(false)}
+                    className="flex-1 py-2.5 text-center bg-gradient-to-r from-sky-500 to-violet-500 text-white font-semibold rounded-full"
+                  >
                     Đăng Ký
                   </Link>
                 </>

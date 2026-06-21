@@ -12,6 +12,12 @@ import {
   type Route,
   type LatLng,
 } from '../lib/osrm';
+import {
+  buildGoogleMapsUrl,
+  buildSegmentUrls,
+  buildStopSearchUrl,
+  GOOGLE_MAPS_MAX_STOPS,
+} from '../lib/googleMapsRoute';
 
 // Điểm dừng đã chuẩn hoá — cả trang lịch trình và tour đều map data của mình
 // sang shape này rồi truyền vào. Toạ độ có thể thiếu (tour cộng đồng) → tự geocode.
@@ -25,7 +31,6 @@ export interface NavWaypoint {
 interface Props {
   waypoints: NavWaypoint[];
   title?: string;
-  height?: number;
 }
 
 const categoryEmoji = { start: '🚩', end: '🏁', mid: '📍' } as const;
@@ -36,10 +41,59 @@ const categoryEmoji = { start: '🚩', end: '🏁', mid: '📍' } as const;
 // ETA khác nhau, đúng cách Google Maps làm với xe máy ở VN. Khi self-host OSRM
 // (lúc xuất app) có thể thay bằng profile riêng cho từng phương tiện.
 type VehicleId = 'motorbike' | 'car' | 'coach';
-const VEHICLES: { id: VehicleId; icon: string; label: string; factor: number }[] = [
-  { id: 'motorbike', icon: '🏍️', label: 'Xe máy',  factor: 0.9 },  // luồn lách, nhanh hơn trong phố
-  { id: 'car',       icon: '🚗', label: 'Ô tô',    factor: 1.0 },  // baseline OSRM
-  { id: 'coach',     icon: '🚌', label: 'Xe khách', factor: 1.3 },  // cồng kềnh, dừng đón trả
+
+// Icon line-art (stroke) thay cho emoji — đồng bộ nét, sắc trên mọi nền, đổi màu
+// theo `currentColor` để bám trạng thái chọn. viewBox 24×24, vẽ ở weight 1.8.
+function VehicleIcon({ id, className }: { id: VehicleId; className?: string }) {
+  const common = {
+    className,
+    width: 22,
+    height: 22,
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.8,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+  };
+  switch (id) {
+    case 'motorbike':
+      return (
+        <svg {...common}>
+          <circle cx="5.5" cy="17" r="3" />
+          <circle cx="18.5" cy="17" r="3" />
+          <path d="M8.5 17h6l3-5h-4l-2-3H8" />
+          <path d="M14 9h3l1.5 3" />
+          <path d="M5.5 17l3-5" />
+        </svg>
+      );
+    case 'car':
+      return (
+        <svg {...common}>
+          <path d="M3 13l1.8-4.2A2 2 0 0 1 6.6 7.6h10.8a2 2 0 0 1 1.8 1.2L21 13" />
+          <path d="M3 13h18v4a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1v-.5h-9V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z" />
+          <circle cx="7" cy="15.5" r="1.1" />
+          <circle cx="17" cy="15.5" r="1.1" />
+        </svg>
+      );
+    case 'coach':
+      return (
+        <svg {...common}>
+          <rect x="4" y="4" width="16" height="13" rx="2" />
+          <path d="M4 11h16" />
+          <path d="M8 4v7M12 4v7M16 4v7" />
+          <path d="M6 17v1.5M18 17v1.5" />
+          <circle cx="8" cy="17" r="0.6" />
+          <circle cx="16" cy="17" r="0.6" />
+        </svg>
+      );
+  }
+}
+
+const VEHICLES: { id: VehicleId; label: string; factor: number }[] = [
+  { id: 'motorbike', label: 'Xe máy',  factor: 0.9 },  // luồn lách, nhanh hơn trong phố
+  { id: 'car',       label: 'Ô tô',    factor: 1.0 },  // baseline OSRM
+  { id: 'coach',     label: 'Xe khách', factor: 1.3 },  // cồng kềnh, dừng đón trả
 ];
 
 // Biểu tượng hướng cho banner chỉ dẫn — map theo maneuver modifier.
@@ -74,7 +128,7 @@ type GpsStatus = 'idle' | 'requesting' | 'granted' | 'denied' | 'unsupported';
 // chỉ dẫn từng chặng + giọng nói TTS, tự tính lại tuyến khi đi lệch. Có bộ chọn
 // phương tiện (xe máy / ô tô / xe khách) và chế độ "Mô phỏng" để demo khi GPS
 // không di chuyển. Render client-only — nhúng qua dynamic import (ssr:false).
-export default function LiveNavigation({ waypoints, title, height = 460 }: Props) {
+export default function LiveNavigation({ waypoints, title }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInst = useRef<L.Map | null>(null);
   const userMarker = useRef<L.Marker | null>(null);
@@ -95,6 +149,7 @@ export default function LiveNavigation({ waypoints, title, height = 460 }: Props
   const [heading, setHeading] = useState(0);
   const [stepIdx, setStepIdx] = useState(0);
   const [offRoute, setOffRoute] = useState(false);
+  const [sheetOpen, setSheetOpen] = useState(false);  // bottom sheet mở rộng (xem trạm + Google Maps)
 
   const watchId = useRef<number | null>(null);
   const demoTimer = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -186,8 +241,10 @@ export default function LiveNavigation({ waypoints, title, height = 460 }: Props
   useEffect(() => {
     if (!located || located.length === 0 || !mapRef.current || mapInst.current) return;
 
-    const map = L.map(mapRef.current, { zoomControl: true, scrollWheelZoom: true });
+    const map = L.map(mapRef.current, { zoomControl: false, scrollWheelZoom: true });
     mapInst.current = map;
+    // Zoom +/- ở góc dưới-trái để không đụng các card nổi phía trên (giống Google Maps).
+    L.control.zoom({ position: 'bottomleft' }).addTo(map);
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; OpenStreetMap &copy; CARTO',
       maxZoom: 19,
@@ -209,7 +266,11 @@ export default function LiveNavigation({ waypoints, title, height = 460 }: Props
     });
 
     const pts: [number, number][] = located.map((w) => [w.lat, w.lng]);
-    map.fitBounds(L.latLngBounds(pts), { padding: [40, 40] });
+    // Chừa khoảng cho card phương tiện (trên) và bottom sheet (dưới) để marker không bị che.
+    map.fitBounds(L.latLngBounds(pts), {
+      paddingTopLeft: [40, 130],
+      paddingBottomRight: [40, 230],
+    });
 
     return () => { map.remove(); mapInst.current = null; };
   }, [located]);
@@ -328,6 +389,21 @@ export default function LiveNavigation({ waypoints, title, height = 460 }: Props
     if (typeof window !== 'undefined') window.speechSynthesis?.cancel();
   }, [stopDemo]);
 
+  // ── Đưa bản đồ về vị trí của tôi (hoặc khít toàn tuyến nếu chưa có GPS) ──
+  const recenter = useCallback(() => {
+    const map = mapInst.current;
+    if (!map) return;
+    if (userPos) {
+      map.setView([userPos.lat, userPos.lng], Math.max(map.getZoom(), 16), { animate: true });
+    } else if (located && located.length) {
+      const pts: [number, number][] = located.map((w) => [w.lat, w.lng]);
+      map.fitBounds(L.latLngBounds(pts), {
+        paddingTopLeft: [40, 130],
+        paddingBottomRight: [40, 230],
+      });
+    }
+  }, [userPos, located]);
+
   // ── Số liệu còn lại cho banner (đã quy đổi theo phương tiện) ──
   const remaining = (() => {
     if (!route) return null;
@@ -344,7 +420,7 @@ export default function LiveNavigation({ waypoints, title, height = 460 }: Props
   // ── Render trạng thái tải ──
   if (!located) {
     return (
-      <div className="flex flex-col items-center justify-center gap-3 rounded-2xl bg-gradient-to-br from-sky-50 to-blue-50 border border-sky-100" style={{ height }}>
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-gradient-to-br from-sky-50 to-blue-50">
         <div className="text-3xl animate-bounce">🛰️</div>
         <p className="text-sm font-semibold text-gray-600">Đang định vị các điểm đến…</p>
       </div>
@@ -352,152 +428,289 @@ export default function LiveNavigation({ waypoints, title, height = 460 }: Props
   }
   if (located.length < 2) {
     return (
-      <div className="flex flex-col items-center justify-center gap-2 rounded-2xl bg-gray-50 border border-gray-100 text-center px-6" style={{ height }}>
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-gray-50 text-center px-6">
         <div className="text-3xl">🧭</div>
         <p className="text-sm text-gray-400">Cần ít nhất 2 điểm có toạ độ để dẫn đường.</p>
       </div>
     );
   }
 
+  const segmentUrls = buildSegmentUrls(located);
+  const isTruncated = located.length > GOOGLE_MAPS_MAX_STOPS;
+  const gpsOverlay = gpsStatus === 'denied' || gpsStatus === 'unsupported' || gpsStatus === 'requesting';
+
   return (
-    <div className="space-y-3">
-      {/* ── Bộ chọn phương tiện (giống Google Maps) ── */}
-      <div className="flex bg-gray-100 rounded-2xl p-1 gap-1">
-        {VEHICLES.map((v) => (
-          <button
-            key={v.id}
-            onClick={() => setVehicle(v.id)}
-            className={`flex-1 flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl text-sm font-bold transition-all ${
-              vehicle === v.id ? 'bg-white shadow-md text-blue-600' : 'text-gray-500 hover:text-gray-700'
-            }`}
-          >
-            <span className="text-lg">{v.icon}</span>
-            <span className="hidden sm:inline">{v.label}</span>
-          </button>
-        ))}
+    <div className="absolute inset-0 overflow-hidden bg-gray-100">
+      {/* ── Bản đồ nền (toàn màn hình) ── */}
+      <div ref={mapRef} className="absolute inset-0" />
+
+      {/* ── Overlay TRÊN: bộ chọn phương tiện / banner chỉ dẫn turn-by-turn ── */}
+      <div className="absolute top-0 inset-x-0 z-[600] px-3 pt-16 pointer-events-none">
+        <div className="max-w-2xl mx-auto pointer-events-auto">
+          {navigating && curStep ? (
+            <div className={`rounded-2xl p-4 text-white shadow-xl transition-colors ${offRoute ? 'bg-gradient-to-r from-amber-500 to-orange-600' : 'bg-gradient-to-r from-blue-600 to-sky-500'}`}>
+              <div className="flex items-center gap-4">
+                <div className="text-4xl font-black w-12 text-center shrink-0">
+                  {arrowFor(curStep.type, curStep.modifier)}
+                </div>
+                <div className="flex-1 min-w-0">
+                  {offRoute ? (
+                    <p className="font-bold text-sm">Đang tính lại tuyến đường…</p>
+                  ) : (
+                    <>
+                      {distToStep != null && curStep.type !== 'arrive' && (
+                        <p className="text-blue-100 text-xs font-semibold">Sau {formatDistance(distToStep)}</p>
+                      )}
+                      <p className="font-black text-base leading-tight truncate">{curStep.text}</p>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div className="bg-white rounded-2xl shadow-xl shadow-black/5 p-1 flex gap-1">
+              {VEHICLES.map((v) => {
+                const active = vehicle === v.id;
+                return (
+                  <button
+                    key={v.id}
+                    onClick={() => setVehicle(v.id)}
+                    aria-pressed={active}
+                    title={v.label}
+                    className={`flex-1 flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl text-sm font-bold transition-all ${
+                      active
+                        ? 'bg-sky-500 text-white shadow-md shadow-sky-500/25'
+                        : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
+                    }`}
+                  >
+                    <VehicleIcon id={v.id} />
+                    <span className="hidden sm:inline">{v.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
+        </div>
       </div>
 
-      {/* ── Banner chỉ dẫn turn-by-turn ── */}
-      {navigating && curStep ? (
-        <div className={`rounded-2xl p-4 text-white shadow-lg transition-colors ${offRoute ? 'bg-gradient-to-r from-amber-500 to-orange-600' : 'bg-gradient-to-r from-blue-600 to-sky-500'}`}>
-          <div className="flex items-center gap-4">
-            <div className="text-4xl font-black w-12 text-center shrink-0">
-              {arrowFor(curStep.type, curStep.modifier)}
-            </div>
-            <div className="flex-1 min-w-0">
-              {offRoute ? (
-                <p className="font-bold text-sm">Đang tính lại tuyến đường…</p>
-              ) : (
-                <>
-                  {distToStep != null && curStep.type !== 'arrive' && (
-                    <p className="text-blue-100 text-xs font-semibold">Sau {formatDistance(distToStep)}</p>
-                  )}
-                  <p className="font-black text-base leading-tight truncate">{curStep.text}</p>
-                </>
-              )}
-            </div>
-          </div>
-          {remaining && (
-            <div className="flex items-center gap-4 mt-3 pt-3 border-t border-white/20 text-sm">
-              <span className="font-bold">🏁 {formatDistance(remaining.dist)}</span>
-              <span className="font-bold">⏱️ {formatDuration(remaining.dur)}</span>
-              <span className="ml-auto text-blue-100 text-xs">Bước {stepIdx + 1}/{route!.steps.length}</span>
-            </div>
-          )}
-        </div>
-      ) : (
-        <div className="rounded-2xl p-4 bg-gradient-to-r from-blue-600 to-sky-500 text-white shadow-lg">
-          <p className="text-blue-100 text-xs font-semibold uppercase tracking-wider mb-0.5">🧭 Dẫn đường thực tế</p>
-          <h3 className="font-black text-lg leading-tight">{title || 'Lộ trình của bạn'}</h3>
-          {route ? (
-            <p className="text-blue-100 text-sm mt-1">
-              Tổng {formatDistance(route.distance)} · ~{formatDuration(dur(route.duration))} · {located.length} trạm
-            </p>
-          ) : routeError ? (
-            <p className="text-blue-100 text-sm mt-1">Không tải được tuyến đường (kiểm tra mạng).</p>
-          ) : (
-            <p className="text-blue-100 text-sm mt-1">Đang tính tuyến đường…</p>
-          )}
-        </div>
-      )}
-
-      {/* ── Bản đồ ── */}
-      <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100 relative">
-        <div ref={mapRef} style={{ height, width: '100%' }} />
-
-        {/* Nút bật/tắt giọng nói */}
+      {/* ── Nút nổi bên phải: giọng nói + về vị trí (giống Google Maps) ── */}
+      <div className="absolute right-3 bottom-[15.5rem] z-[600] flex flex-col gap-2.5">
         <button
-          onClick={() => { setVoiceOn((v) => !v); if (voiceOn && typeof window !== 'undefined') window.speechSynthesis?.cancel(); }}
-          className="absolute top-3 right-3 z-[500] w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center text-lg hover:scale-105 transition-transform"
+          onClick={() => { setVoiceOn((vo) => !vo); if (voiceOn && typeof window !== 'undefined') window.speechSynthesis?.cancel(); }}
+          className="w-11 h-11 rounded-full bg-white shadow-lg flex items-center justify-center text-lg hover:scale-105 active:scale-95 transition-transform"
           title={voiceOn ? 'Tắt giọng nói' : 'Bật giọng nói'}
         >
           {voiceOn ? '🔊' : '🔇'}
         </button>
+        <button
+          onClick={recenter}
+          className="w-11 h-11 rounded-full bg-white shadow-lg flex items-center justify-center text-blue-600 hover:scale-105 active:scale-95 transition-transform"
+          title="Về vị trí của tôi"
+          aria-label="Về vị trí của tôi"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="3.5" />
+            <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+          </svg>
+        </button>
+      </div>
 
-        {/* Overlay yêu cầu bật vị trí — phải cho phép mới dẫn đường được */}
-        {(gpsStatus === 'denied' || gpsStatus === 'unsupported' || gpsStatus === 'requesting') && (
-          <div className="absolute inset-0 z-[600] bg-white/85 backdrop-blur-sm flex flex-col items-center justify-center text-center px-6 gap-3">
-            {gpsStatus === 'requesting' ? (
-              <>
-                <div className="text-4xl animate-pulse">📡</div>
-                <p className="font-bold text-gray-700">Đang xin quyền truy cập vị trí…</p>
-                <p className="text-xs text-gray-500">Hãy bấm <b>&quot;Cho phép&quot;</b> trên trình duyệt để dẫn đường.</p>
-              </>
-            ) : gpsStatus === 'unsupported' ? (
-              <>
-                <div className="text-4xl">🚫</div>
-                <p className="font-bold text-gray-700">Thiết bị không hỗ trợ định vị</p>
-                <p className="text-xs text-gray-500">Bạn vẫn có thể bấm <b>Mô phỏng</b> để xem thử lộ trình.</p>
-              </>
-            ) : (
-              <>
-                <div className="text-4xl">📍</div>
-                <p className="font-bold text-gray-700">Cần bật vị trí để dẫn đường</p>
-                <p className="text-xs text-gray-500 max-w-xs">
-                  Bạn đã từ chối quyền vị trí. Hãy bật lại trong cài đặt trình duyệt (biểu tượng 🔒 trên thanh địa chỉ) rồi thử lại.
-                </p>
-                <button
-                  onClick={startGPS}
-                  className="mt-1 px-5 py-2.5 bg-blue-600 text-white font-bold rounded-xl text-sm hover:bg-blue-700 transition-colors"
-                >
-                  🔄 Thử lại bật vị trí
-                </button>
-              </>
-            )}
+      {/* ── Overlay yêu cầu bật vị trí (không che bottom sheet để vẫn bấm Mô phỏng được) ── */}
+      {gpsOverlay && (
+        <div className="absolute inset-x-0 top-0 bottom-[14rem] z-[630] bg-white/85 backdrop-blur-sm flex flex-col items-center justify-center text-center px-6 gap-3">
+          {gpsStatus === 'requesting' ? (
+            <>
+              <div className="text-4xl animate-pulse">📡</div>
+              <p className="font-bold text-gray-700">Đang xin quyền truy cập vị trí…</p>
+              <p className="text-xs text-gray-500">Hãy bấm <b>&quot;Cho phép&quot;</b> trên trình duyệt để dẫn đường.</p>
+            </>
+          ) : gpsStatus === 'unsupported' ? (
+            <>
+              <div className="text-4xl">🚫</div>
+              <p className="font-bold text-gray-700">Thiết bị không hỗ trợ định vị</p>
+              <p className="text-xs text-gray-500">Bạn vẫn có thể bấm <b>Mô phỏng</b> để xem thử lộ trình.</p>
+            </>
+          ) : (
+            <>
+              <div className="text-4xl">📍</div>
+              <p className="font-bold text-gray-700">Cần bật vị trí để dẫn đường</p>
+              <p className="text-xs text-gray-500 max-w-xs">
+                Bạn đã từ chối quyền vị trí. Hãy bật lại trong cài đặt trình duyệt (biểu tượng 🔒 trên thanh địa chỉ) rồi thử lại.
+              </p>
+              <button
+                onClick={startGPS}
+                className="mt-1 px-5 py-2.5 bg-blue-600 text-white font-bold rounded-xl text-sm hover:bg-blue-700 transition-colors"
+              >
+                🔄 Thử lại bật vị trí
+              </button>
+            </>
+          )}
+        </div>
+      )}
+
+      {/* ── Bottom sheet (kéo lên xem chi tiết) ── */}
+      <div className="absolute inset-x-0 bottom-0 z-[640]">
+        <div className="bg-white rounded-t-3xl shadow-[0_-8px_30px_rgba(0,0,0,0.12)] max-w-2xl mx-auto">
+          {/* Tay nắm — bấm để mở/đóng phần chi tiết */}
+          <button
+            onClick={() => setSheetOpen((o) => !o)}
+            className="w-full pt-2.5 pb-1 flex flex-col items-center gap-1"
+            aria-label={sheetOpen ? 'Thu gọn' : 'Mở rộng'}
+          >
+            <span className="w-10 h-1.5 rounded-full bg-gray-300" />
+          </button>
+
+          {/* Tóm tắt tuyến + nút bắt đầu (luôn hiển thị) */}
+          <div className="px-4 pb-4">
+            <div className="flex items-end gap-3 mb-3">
+              <div className="min-w-0">
+                {navigating && remaining ? (
+                  <>
+                    <p className="text-2xl font-black text-green-600 leading-none">{formatDuration(remaining.dur)}</p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      Còn {formatDistance(remaining.dist)} · bước {stepIdx + 1}/{route!.steps.length}
+                    </p>
+                  </>
+                ) : route ? (
+                  <>
+                    <p className="text-2xl font-black text-green-600 leading-none">{formatDuration(dur(route.duration))}</p>
+                    <p className="text-sm text-gray-500 mt-1">{formatDistance(route.distance)} · {located.length} trạm</p>
+                  </>
+                ) : routeError ? (
+                  <p className="text-sm font-semibold text-red-500">Không tải được tuyến (kiểm tra mạng).</p>
+                ) : (
+                  <p className="text-sm text-gray-400">Đang tính tuyến đường…</p>
+                )}
+              </div>
+              <button
+                onClick={() => setSheetOpen((o) => !o)}
+                className="ml-auto shrink-0 flex items-center gap-1 text-sm font-semibold text-gray-500 hover:text-gray-700"
+              >
+                Chi tiết
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transition-transform ${sheetOpen ? 'rotate-180' : ''}`}>
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="flex gap-2">
+              <button
+                onClick={() => toggleNav(false)}
+                disabled={!route || !gpsReady}
+                className={`flex-1 py-3.5 rounded-2xl font-black text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed ${
+                  navigating && !demo
+                    ? 'bg-red-500 text-white hover:bg-red-600'
+                    : 'bg-gradient-to-r from-blue-600 to-sky-500 text-white hover:scale-[1.02]'
+                }`}
+                title={!gpsReady ? 'Cần bật vị trí để dẫn đường bằng GPS thật' : ''}
+              >
+                {navigating && !demo ? '⏹ Dừng dẫn đường' : gpsReady ? '▶ Bắt đầu' : '📍 Đang chờ vị trí…'}
+              </button>
+              <button
+                onClick={() => toggleNav(true)}
+                disabled={!route}
+                className={`px-5 py-3.5 rounded-2xl font-bold text-sm border-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed ${
+                  navigating && demo
+                    ? 'bg-red-500 text-white border-red-500'
+                    : 'bg-white text-blue-600 border-blue-200 hover:border-blue-400'
+                }`}
+                title="Chạy thử dọc tuyến (khi GPS không di chuyển)"
+              >
+                {navigating && demo ? '⏹ Dừng' : '🎬 Mô phỏng'}
+              </button>
+            </div>
           </div>
-        )}
-      </div>
 
-      {/* ── Thanh điều khiển ── */}
-      <div className="flex gap-2">
-        <button
-          onClick={() => toggleNav(false)}
-          disabled={!route || !gpsReady}
-          className={`flex-1 py-3.5 rounded-2xl font-black text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed ${
-            navigating && !demo
-              ? 'bg-red-500 text-white hover:bg-red-600'
-              : 'bg-gradient-to-r from-blue-600 to-sky-500 text-white hover:scale-[1.02]'
-          }`}
-          title={!gpsReady ? 'Cần bật vị trí để dẫn đường bằng GPS thật' : ''}
-        >
-          {navigating && !demo ? '⏹ Dừng dẫn đường' : gpsReady ? '▶ Bắt đầu dẫn đường' : '📍 Đang chờ vị trí…'}
-        </button>
-        <button
-          onClick={() => toggleNav(true)}
-          disabled={!route}
-          className={`px-5 py-3.5 rounded-2xl font-bold text-sm border-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed ${
-            navigating && demo
-              ? 'bg-red-500 text-white border-red-500'
-              : 'bg-white text-blue-600 border-blue-200 hover:border-blue-400'
-          }`}
-          title="Chạy thử dọc tuyến (khi GPS không di chuyển)"
-        >
-          {navigating && demo ? '⏹ Dừng' : '🎬 Mô phỏng'}
-        </button>
+          {/* Chi tiết — thứ tự trạm + mở Google Maps (cuộn được) */}
+          {sheetOpen && (
+            <div className="max-h-[48vh] overflow-y-auto px-4 pb-6 space-y-4 border-t border-gray-100 pt-3">
+              {/* Thứ tự lộ trình */}
+              <div>
+                <h4 className="font-bold text-gray-800 text-sm mb-2 flex items-center gap-2">📍 Thứ tự lộ trình</h4>
+                <div className="space-y-1">
+                  {located.map((wp, idx) => {
+                    const isFirst = idx === 0;
+                    const isLast = idx === located.length - 1;
+                    return (
+                      <a
+                        key={idx}
+                        href={buildStopSearchUrl(wp)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 px-2 py-2 rounded-xl hover:bg-gray-50 transition-colors group"
+                      >
+                        <div className={`w-7 h-7 rounded-full flex items-center justify-center font-black text-xs shadow shrink-0 ${
+                          isFirst ? 'bg-green-400 text-white' :
+                          isLast ? 'bg-red-400 text-white' :
+                          'bg-gradient-to-br from-sky-400 to-blue-600 text-white'
+                        }`}>
+                          {isFirst ? '🚀' : isLast ? '🏁' : idx + 1}
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <p className="font-semibold text-gray-800 text-sm truncate">{wp.name}</p>
+                          <p className="text-xs text-gray-400 truncate">
+                            {isFirst ? '🟢 Xuất phát' : isLast ? '🔴 Kết thúc' : `Trạm dừng ${idx + 1}`}
+                            {wp.city && ` · ${wp.city}`}
+                          </p>
+                        </div>
+                        <span className="shrink-0 text-xs text-sky-600 font-semibold opacity-0 group-hover:opacity-100">Xem 📍</span>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Mở bằng Google Maps */}
+              <a
+                href={buildGoogleMapsUrl(located)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 w-full py-3.5 bg-gradient-to-r from-blue-600 to-sky-500 rounded-2xl text-white font-black text-sm hover:scale-[1.01] transition-transform shadow-lg shadow-blue-500/20"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#fff" />
+                  <circle cx="12" cy="9" r="2.5" fill="#2563eb" />
+                </svg>
+                Mở trên Google Maps
+              </a>
+              <p className="text-center text-[11px] text-gray-400 -mt-2">
+                {isTruncated
+                  ? `Hiển thị ${GOOGLE_MAPS_MAX_STOPS}/${located.length} trạm chính trên Google Maps`
+                  : `Tự động điền ${located.length} trạm dừng trên lộ trình`}
+              </p>
+
+              {/* Mở từng chặng — khi có quá nhiều trạm */}
+              {segmentUrls.length > 0 && (
+                <div className="space-y-2">
+                  <p className="text-gray-500 text-xs font-semibold">📋 Xem từng chặng (đầy đủ {located.length} trạm):</p>
+                  <div className="grid gap-2">
+                    {segmentUrls.map((seg, i) => (
+                      <a
+                        key={i}
+                        href={seg.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-3 py-2.5 bg-gray-50 hover:bg-gray-100 rounded-xl text-sm transition-colors border border-gray-100"
+                      >
+                        <span className="bg-sky-100 text-sky-700 rounded-lg w-6 h-6 flex items-center justify-center text-xs font-black shrink-0">{i + 1}</span>
+                        <span className="truncate text-gray-700">{seg.label}</span>
+                        <span className="ml-auto text-gray-400 text-xs shrink-0">→ Maps</span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="flex items-start gap-2.5 bg-amber-50 border border-amber-200 rounded-2xl px-3 py-2.5">
+                <span className="text-lg shrink-0">💡</span>
+                <p className="text-amber-800 text-xs leading-relaxed">
+                  Trên điện thoại sẽ dùng GPS thật để dẫn đường turn-by-turn. Trên máy tính, bấm <b>Mô phỏng</b> để xem thử lộ trình chạy.
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
-      <p className="text-center text-[11px] text-gray-400">
-        💡 Trên điện thoại sẽ dùng GPS thật để dẫn đường. Trên máy tính, bấm <b>Mô phỏng</b> để xem thử.
-      </p>
     </div>
   );
 }
